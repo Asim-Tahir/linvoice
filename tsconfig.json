@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./nodu_modules/@types", "./types"],
+    "types": [
+      "vite/client",
+      "node",
+      "@types/jest",
+      "@types/testing-library__jest-dom",
+      "@types/react"
+    ],
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsxImportSource": "react",
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@types": ["types"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tests/**/*.tsx",
+    "tests/**/*.ts",
+    "types/**/*.ts"
+  ]
+}
