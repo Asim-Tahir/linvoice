@@ -1,5 +1,6 @@
 {
-  "name": "@temple8/vite-react-redux-ts",
+  "name": "linvoice",
+  "description": "Linvoice is simple invoince 📃 management application.",
   "author": {
     "name": "Asım Tahir",
     "email": "AsimTahir@protonmail.com",
