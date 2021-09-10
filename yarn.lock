@@ -5417,7 +5417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^27.1.0":
+"jest-circus@npm:27.1.0, jest-circus@npm:^27.1.0":
   version: 27.1.0
   resolution: "jest-circus@npm:27.1.0"
   dependencies:
@@ -5890,7 +5890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:^27.1.0":
+"jest@npm:27.1.0":
   version: 27.1.0
   resolution: "jest@npm:27.1.0"
   dependencies:
@@ -6197,8 +6197,8 @@ __metadata:
     eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-testing-library: 4.12.1
     handlebars: 4.7.7
-    jest: ^27.1.0
-    jest-circus: ^27.1.0
+    jest: 27.1.0
+    jest-circus: 27.1.0
     jest-transform-stub: 2.0.0
     postcss: 8.3.6
     postcss-import: 14.0.2
