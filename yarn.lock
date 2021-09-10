@@ -3723,7 +3723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.2.0":
+"eslint-plugin-react-hooks@npm:4.2.0":
   version: 4.2.0
   resolution: "eslint-plugin-react-hooks@npm:4.2.0"
   peerDependencies:
@@ -6194,7 +6194,7 @@ __metadata:
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.25.1
-    eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-react-hooks: 4.2.0
     eslint-plugin-testing-library: ^4.12.1
     handlebars: ^4.7.7
     jest: ^27.1.0
@@ -6203,9 +6203,9 @@ __metadata:
     postcss: ^8.3.6
     postcss-import: ^14.0.2
     prettier: ^2.3.2
-    react: ^17.0.2
+    react: 17.0.2
     react-chartjs-2: ^3.0.4
-    react-dom: ^17.0.2
+    react-dom: 17.0.2
     react-redux: ^7.2.5
     react-router-dom: ^5.3.0
     react-transition-group: ^4.4.2
@@ -7800,7 +7800,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.2":
+"react-dom@npm:17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -7938,7 +7938,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.2":
+"react@npm:17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
