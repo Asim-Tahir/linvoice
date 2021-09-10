@@ -6221,7 +6221,7 @@ __metadata:
     twin.macro: 2.7.0
     typescript: 4.4.2
     unplugin-auto-import: 0.4.5
-    vite: 2.5.4
+    vite: 2.5.6
     vite-imagetools: 3.6.8
     vite-plugin-babel-macros: 1.0.5
     vite-plugin-svg-icons: 1.0.4
@@ -10029,9 +10029,9 @@ typescript@4.4.2:
   languageName: node
   linkType: hard
 
-"vite@npm:2.5.4":
-  version: 2.5.4
-  resolution: "vite@npm:2.5.4"
+"vite@npm:2.5.6":
+  version: 2.5.6
+  resolution: "vite@npm:2.5.6"
   dependencies:
     esbuild: ^0.12.17
     fsevents: ~2.3.2
@@ -10043,7 +10043,7 @@ typescript@4.4.2:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 328bd378791d56c49570c8aa80a9d1a42dd86e7a0bed4e8462af57d586545d5296a81d69208a626b574e27bdca59e71c36db8f3b7020e6acb0f4c4ba7601eae4
+  checksum: 6511d35b2427ba4804d387e6ec8c18d03cd2320d2e6ecb7c492f482183f51765e8eda57b44dbb0b5a71cd211a17813e5c73e722357bb9e7735ea4ec5bb97f886
   languageName: node
   linkType: hard
 
