@@ -1,63 +1,46 @@
-import { Counter } from "@/components";
+import { lazy } from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import AccessibleNavigationAnnouncer from "@/components/AccessibleNavigationAnnouncer";
+import { Provider } from "react-redux";
 
-import ViteLogo from "@/assets/svg/logo-vite.svg";
-import ReactLogo from "@/assets/svg/logo-react.svg";
-import ReduxLogo from "@/assets/svg/logo-redux.svg";
+import store from "@/store";
 
-import "@/assets/css/App.css";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+const Layout = lazy(() => import("@/containers/Layout"));
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+const Login = lazy(() => import("@/pages/Login"));
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+const CreateAccount = lazy(() => import("@/pages/CreateAccount"));
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+const ForgotPassword = lazy(() => import("@/pages/ForgotPassword"));
 
 export default function App(): React.ReactElement {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="flex justify-center items-center">
-          <img src={ReactLogo} className="App-logo" alt="logo" />
-          <img src={ViteLogo} alt="logo" />
-          <img src={ReduxLogo} className="App-logo" alt="logo" />
-        </div>
-        <Counter />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Router>
+        <AccessibleNavigationAnnouncer />
+        <Switch>
+          <Route path="/login" component={Login} />
+          <Route path="/create-account" component={CreateAccount} />
+          <Route path="/forgot-password" component={ForgotPassword} />
+
+          {/* Place new routes over this */}
+          <Route path="/app" component={Layout} />
+          {/* If you have an index page, you can remothis Redirect */}
+          <Redirect exact from="/" to="/login" />
+        </Switch>
+      </Router>
+    </Provider>
   );
 }

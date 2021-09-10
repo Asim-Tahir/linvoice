@@ -1,10 +1,11 @@
 import { defineConfig, loadEnv } from "vite";
 import ViteReact from "@vitejs/plugin-react-refresh";
 import ViteReactJSX from "vite-react-jsx";
-import AutoImport from "unplugin-auto-import/vite";
 import SVGIcons from "vite-plugin-svg-icons";
-// https://iconify.design/
-import Icons from "unplugin-icons/vite";
+import MacrosPlugin from "vite-plugin-babel-macros";
+import AutoImport from "unplugin-auto-import/vite";
+// import { imagetools as ImageTools } from "vite-imagetools";
+import { string as ViteString } from "rollup-plugin-string";
 
 import { resolve } from "path";
 
@@ -17,17 +18,22 @@ export default ({ mode }: { mode: string }) => {
     plugins: [
       ViteReact(),
       ViteReactJSX(),
-      AutoImport({
-        include: [
-          /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
-        ],
-        dts: "types/generated/auto-imports.d.ts",
-        imports: ["react"],
-      }),
-      Icons({ compiler: "jsx" }),
       SVGIcons({
-        iconDirs: [resolve(process.cwd(), "src/assets/svg")],
+        iconDirs: [resolve(process.cwd(), "src/assets/svgs")],
         symbolId: "icon-[dir]-[name]",
+      }),
+      AutoImport({
+        imports: ["react"],
+        resolvers: [],
+        dts: "types/generated/auto-import.d.ts",
+      }),
+      MacrosPlugin(),
+      // ImageTools(),
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      ViteString({
+        include: "src/email/**/*.html",
+        exclude: ["**/index.html"],
       }),
     ],
     server: {
@@ -35,18 +41,20 @@ export default ({ mode }: { mode: string }) => {
       cors: true,
       strictPort: false,
       hmr: true,
+      proxy: {
+        "/api/mail": {
+          target: process.env.VITE_MAIL_API_URL,
+          changeOrigin: true,
+          autoRewrite: true,
+          ws: true,
+          rewrite: (path: string) => path.replace("/api/mail", ""),
+        },
+      },
       fs: {
         strict: false,
         // Allow serving files from one level up to the project root
-        // allow: ["./src/graphql/**/*.graphql"],
+        // allow: ["src/graphql/**/*.graphql"],
       },
-      // proxy: {
-      //   "/api": {
-      //     target: process.env.VITE_API_KEY,
-      //     changeOrigin: true,
-      //     autoRewrite: true,
-      //   },
-      // },
       watch: {
         usePolling: true,
         useFsEvents: true,
@@ -58,6 +66,9 @@ export default ({ mode }: { mode: string }) => {
         "@": resolve(__dirname, "src"),
       },
     },
-    define: { "process.env": process.env },
+    define: {
+      "process.env": process.env,
+      "process.platform": JSON.stringify("win32"),
+    },
   });
 };
