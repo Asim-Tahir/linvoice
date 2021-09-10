@@ -899,7 +899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@reduxjs/toolkit@npm:^1.6.1":
+"@reduxjs/toolkit@npm:1.6.1":
   version: 1.6.1
   resolution: "@reduxjs/toolkit@npm:1.6.1"
   dependencies:
@@ -981,7 +981,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/jest@npm:^1.3.1":
+"@swc-node/jest@npm:1.3.1":
   version: 1.3.1
   resolution: "@swc-node/jest@npm:1.3.1"
   dependencies:
@@ -1163,7 +1163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.14.1":
+"@testing-library/jest-dom@npm:5.14.1":
   version: 5.14.1
   resolution: "@testing-library/jest-dom@npm:5.14.1"
   dependencies:
@@ -1180,7 +1180,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:^12.0.0":
+"@testing-library/react@npm:12.0.0":
   version: 12.0.0
   resolution: "@testing-library/react@npm:12.0.0"
   dependencies:
@@ -1283,7 +1283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7.28.0":
+"@types/eslint@npm:7.28.0":
   version: 7.28.0
   resolution: "@types/eslint@npm:7.28.0"
   dependencies:
@@ -1351,7 +1351,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*, @types/jest@npm:^27.0.1":
+"@types/jest@npm:*, @types/jest@npm:27.0.1":
   version: 27.0.1
   resolution: "@types/jest@npm:27.0.1"
   dependencies:
@@ -1384,7 +1384,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^16.7.13":
+"@types/node@npm:*, @types/node@npm:16.7.13":
   version: 16.7.13
   resolution: "@types/node@npm:16.7.13"
   checksum: 15dc28aa44674d3f49dcca4a6523b6ab1ef9bbea5c659057bec13153e1873718d6b62ab0ea57a3d57ee37f0f1136ae30e3ea503df43b0afa3ae437c8750be7f5
@@ -1405,7 +1405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2.1.5, @types/prettier@npm:^2.3.2":
+"@types/prettier@npm:2.3.2, @types/prettier@npm:^2.1.5":
   version: 2.3.2
   resolution: "@types/prettier@npm:2.3.2"
   checksum: c4313e16650811f47b07a0fa7ac0742e966f61283a7292eb667fd4626d760bf3b7d896be3eaabb3354ad45fdbe3a340299b018dd3bcce1ff753d030a8cd2479c
@@ -1419,7 +1419,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.9":
+"@types/react-dom@npm:17.0.9":
   version: 17.0.9
   resolution: "@types/react-dom@npm:17.0.9"
   dependencies:
@@ -1428,7 +1428,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:^7, @types/react-redux@npm:^7.1.16":
+"@types/react-redux@npm:7.1.18, @types/react-redux@npm:^7.1.16":
   version: 7.1.18
   resolution: "@types/react-redux@npm:7.1.18"
   dependencies:
@@ -1440,7 +1440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-router-dom@npm:^5":
+"@types/react-router-dom@npm:5.1.8":
   version: 5.1.8
   resolution: "@types/react-router-dom@npm:5.1.8"
   dependencies:
@@ -1461,7 +1461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-transition-group@npm:^4":
+"@types/react-transition-group@npm:4.4.2":
   version: 4.4.2
   resolution: "@types/react-transition-group@npm:4.4.2"
   dependencies:
@@ -1470,7 +1470,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.20":
+"@types/react@npm:*, @types/react@npm:17.0.20":
   version: 17.0.20
   resolution: "@types/react@npm:17.0.20"
   dependencies:
@@ -1495,7 +1495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:^5":
+"@types/styled-components@npm:5.1.14":
   version: 5.1.14
   resolution: "@types/styled-components@npm:5.1.14"
   dependencies:
@@ -1506,7 +1506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/stylelint@npm:^13.13.2":
+"@types/stylelint@npm:13.13.2":
   version: 13.13.2
   resolution: "@types/stylelint@npm:13.13.2"
   dependencies:
@@ -1525,7 +1525,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/testing-library__jest-dom@npm:^5.14.1, @types/testing-library__jest-dom@npm:^5.9.1":
+"@types/testing-library__jest-dom@npm:5.14.1, @types/testing-library__jest-dom@npm:^5.9.1":
   version: 5.14.1
   resolution: "@types/testing-library__jest-dom@npm:5.14.1"
   dependencies:
@@ -1672,7 +1672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react-refresh@npm:^1.3.6":
+"@vitejs/plugin-react-refresh@npm:1.3.6":
   version: 1.3.6
   resolution: "@vitejs/plugin-react-refresh@npm:1.3.6"
   dependencies:
@@ -1685,7 +1685,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@windmill/react-ui@npm:^0.6.0":
+"@windmill/react-ui@npm:0.6.0":
   version: 0.6.0
   resolution: "@windmill/react-ui@npm:0.6.0"
   dependencies:
@@ -2066,7 +2066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.2.5, autoprefixer@npm:^10.3.4":
+"autoprefixer@npm:10.3.4, autoprefixer@npm:^10.2.5":
   version: 10.3.4
   resolution: "autoprefixer@npm:10.3.4"
   dependencies:
@@ -2596,7 +2596,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:^3.5.1":
+"chart.js@npm:3.5.1":
   version: 3.5.1
   resolution: "chart.js@npm:3.5.1"
   checksum: aab597abd025354608336111da4e9f7a912a65d4c29f3c7fb41df5cc54bb29d235c41a2cf08d82a79a9a8be928812445f930cbee16aeb8075ebeeb963bfc0da2
@@ -2669,7 +2669,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.3.1":
+"classnames@npm:2.3.1":
   version: 2.3.1
   resolution: "classnames@npm:2.3.1"
   checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
@@ -3443,7 +3443,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^10.0.0":
+"dotenv@npm:10.0.0":
   version: 10.0.0
   resolution: "dotenv@npm:10.0.0"
   checksum: f412c5fe8c24fbe313d302d2500e247ba8a1946492db405a4de4d30dd0eb186a88a43f13c958c5a7de303938949c4231c56994f97d05c4bc1f22478d631b4005
@@ -3648,7 +3648,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:8.3.0":
   version: 8.3.0
   resolution: "eslint-config-prettier@npm:8.3.0"
   peerDependencies:
@@ -3659,7 +3659,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:^3.9.0":
+"eslint-plugin-jest-dom@npm:3.9.0":
   version: 3.9.0
   resolution: "eslint-plugin-jest-dom@npm:3.9.0"
   dependencies:
@@ -3672,7 +3672,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^24.4.0":
+"eslint-plugin-jest@npm:24.4.0":
   version: 24.4.0
   resolution: "eslint-plugin-jest@npm:24.4.0"
   dependencies:
@@ -3687,7 +3687,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:^6.4.1":
+"eslint-plugin-jsx-a11y@npm:6.4.1":
   version: 6.4.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.4.1"
   dependencies:
@@ -3708,7 +3708,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:4.0.0":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
@@ -3732,7 +3732,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.25.1":
+"eslint-plugin-react@npm:7.25.1":
   version: 7.25.1
   resolution: "eslint-plugin-react@npm:7.25.1"
   dependencies:
@@ -3755,7 +3755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^4.12.1":
+"eslint-plugin-testing-library@npm:4.12.1":
   version: 4.12.1
   resolution: "eslint-plugin-testing-library@npm:4.12.1"
   dependencies:
@@ -3810,7 +3810,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.32.0":
+"eslint@npm:7.32.0":
   version: 7.32.0
   resolution: "eslint@npm:7.32.0"
   dependencies:
@@ -4465,7 +4465,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"handlebars@npm:^4.7.7":
+"handlebars@npm:4.7.7":
   version: 4.7.7
   resolution: "handlebars@npm:4.7.7"
   dependencies:
@@ -5829,7 +5829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-transform-stub@npm:^2.0.0":
+"jest-transform-stub@npm:2.0.0":
   version: 2.0.0
   resolution: "jest-transform-stub@npm:2.0.0"
   checksum: c46134257e5fb047f5952e4a4a1339925dd009da15aa8d3310ba1d3e4d22266ed6c675cd18e58c9d5ca2246718d6cc8ff00ea6a4b6f3b2a6b285b6426f6ae8fe
@@ -6163,69 +6163,69 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "linvoice@workspace:."
   dependencies:
-    "@reduxjs/toolkit": ^1.6.1
-    "@swc-node/jest": ^1.3.1
-    "@testing-library/jest-dom": ^5.14.1
-    "@testing-library/react": ^12.0.0
-    "@types/eslint": ^7.28.0
-    "@types/jest": ^27.0.1
-    "@types/node": ^16.7.13
-    "@types/prettier": ^2.3.2
-    "@types/react": ^17.0.20
-    "@types/react-dom": ^17.0.9
-    "@types/react-redux": ^7
-    "@types/react-router-dom": ^5
-    "@types/react-transition-group": ^4
-    "@types/styled-components": ^5
-    "@types/stylelint": ^13.13.2
-    "@types/testing-library__jest-dom": ^5.14.1
+    "@reduxjs/toolkit": 1.6.1
+    "@swc-node/jest": 1.3.1
+    "@testing-library/jest-dom": 5.14.1
+    "@testing-library/react": 12.0.0
+    "@types/eslint": 7.28.0
+    "@types/jest": 27.0.1
+    "@types/node": 16.7.13
+    "@types/prettier": 2.3.2
+    "@types/react": 17.0.20
+    "@types/react-dom": 17.0.9
+    "@types/react-redux": 7.1.18
+    "@types/react-router-dom": 5.1.8
+    "@types/react-transition-group": 4.4.2
+    "@types/styled-components": 5.1.14
+    "@types/stylelint": 13.13.2
+    "@types/testing-library__jest-dom": 5.14.1
     "@typescript-eslint/eslint-plugin": ^4.31.0
     "@typescript-eslint/parser": ^4.31.0
-    "@vitejs/plugin-react-refresh": ^1.3.6
-    "@windmill/react-ui": ^0.6.0
-    autoprefixer: ^10.3.4
-    chart.js: ^3.5.1
-    classnames: ^2.3.1
-    dotenv: ^10.0.0
-    eslint: ^7.32.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-jest: ^24.4.0
-    eslint-plugin-jest-dom: ^3.9.0
-    eslint-plugin-jsx-a11y: ^6.4.1
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ^7.25.1
+    "@vitejs/plugin-react-refresh": 1.3.6
+    "@windmill/react-ui": 0.6.0
+    autoprefixer: 10.3.4
+    chart.js: 3.5.1
+    classnames: 2.3.1
+    dotenv: 10.0.0
+    eslint: 7.32.0
+    eslint-config-prettier: 8.3.0
+    eslint-plugin-jest: 24.4.0
+    eslint-plugin-jest-dom: 3.9.0
+    eslint-plugin-jsx-a11y: 6.4.1
+    eslint-plugin-prettier: 4.0.0
+    eslint-plugin-react: 7.25.1
     eslint-plugin-react-hooks: 4.2.0
-    eslint-plugin-testing-library: ^4.12.1
-    handlebars: ^4.7.7
+    eslint-plugin-testing-library: 4.12.1
+    handlebars: 4.7.7
     jest: ^27.1.0
     jest-circus: ^27.1.0
-    jest-transform-stub: ^2.0.0
-    postcss: ^8.3.6
-    postcss-import: ^14.0.2
-    prettier: ^2.3.2
+    jest-transform-stub: 2.0.0
+    postcss: 8.3.6
+    postcss-import: 14.0.2
+    prettier: 2.3.2
     react: 17.0.2
-    react-chartjs-2: ^3.0.4
+    react-chartjs-2: 3.0.4
     react-dom: 17.0.2
-    react-redux: ^7.2.5
+    react-redux: 7.2.5
     react-router-dom: ^5.3.0
-    react-transition-group: ^4.4.2
-    rollup-plugin-string: ^3.0.0
-    styled-components: ^5.3.1
-    stylelint: ^13.13.1
-    stylelint-config-prettier: ^8.0.2
-    stylelint-config-recommended: ^5.0.0
-    stylelint-config-tailwindcss: ^0.0.1
-    tailwindcss: ^2.2.11
-    ts-jest: ^27.0.5
-    ts-node: ^10.2.1
-    twin.macro: ^2.7.0
-    typescript: ^4.4.2
-    unplugin-auto-import: ^0.4.5
-    vite: ^2.5.4
-    vite-imagetools: ^3.6.8
-    vite-plugin-babel-macros: ^1.0.5
-    vite-plugin-svg-icons: ^1.0.4
-    vite-react-jsx: ^1.1.2
+    react-transition-group: 4.4.2
+    rollup-plugin-string: 3.0.0
+    styled-components: 5.3.1
+    stylelint: 13.13.1
+    stylelint-config-prettier: 8.0.2
+    stylelint-config-recommended: 5.0.0
+    stylelint-config-tailwindcss: 0.0.1
+    tailwindcss: 2.2.11
+    ts-jest: 27.0.5
+    ts-node: 10.2.1
+    twin.macro: 2.7.0
+    typescript: 4.4.2
+    unplugin-auto-import: 0.4.5
+    vite: 2.5.4
+    vite-imagetools: 3.6.8
+    vite-plugin-babel-macros: 1.0.5
+    vite-plugin-svg-icons: 1.0.4
+    vite-react-jsx: 1.1.2
   languageName: unknown
   linkType: soft
 
@@ -7331,7 +7331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-import@npm:^14.0.2":
+"postcss-import@npm:14.0.2":
   version: 14.0.2
   resolution: "postcss-import@npm:14.0.2"
   dependencies:
@@ -7485,6 +7485,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.3.6, postcss@npm:^8.1.6, postcss@npm:^8.1.8, postcss@npm:^8.2.1, postcss@npm:^8.2.15, postcss@npm:^8.3.6":
+  version: 8.3.6
+  resolution: "postcss@npm:8.3.6"
+  dependencies:
+    colorette: ^1.2.2
+    nanoid: ^3.1.23
+    source-map-js: ^0.6.2
+  checksum: ff55b91bea21f42c2a94d77fd05c3f66dd15889c68506cf1dbb9cdee8c3b9e9d0e219bcbc6e61a107bd63e3cac0670176486e2a5794c106a4e1b9babceb79317
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^5.2.17":
   version: 5.2.18
   resolution: "postcss@npm:5.2.18"
@@ -7494,17 +7505,6 @@ __metadata:
     source-map: ^0.5.6
     supports-color: ^3.2.3
   checksum: 0cb88e7c887b9b55d0362159846ec9fbf330892c5853b0e346929e723d215295ffae48d9a0f219f64f74767f9114802dc1b5cd21c327184f958b7efaa93dd629
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.1.6, postcss@npm:^8.1.8, postcss@npm:^8.2.1, postcss@npm:^8.2.15, postcss@npm:^8.3.6":
-  version: 8.3.6
-  resolution: "postcss@npm:8.3.6"
-  dependencies:
-    colorette: ^1.2.2
-    nanoid: ^3.1.23
-    source-map-js: ^0.6.2
-  checksum: ff55b91bea21f42c2a94d77fd05c3f66dd15889c68506cf1dbb9cdee8c3b9e9d0e219bcbc6e61a107bd63e3cac0670176486e2a5794c106a4e1b9babceb79317
   languageName: node
   linkType: hard
 
@@ -7602,7 +7602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.3.2":
+"prettier@npm:2.3.2":
   version: 2.3.2
   resolution: "prettier@npm:2.3.2"
   bin:
@@ -7777,7 +7777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-chartjs-2@npm:^3.0.4":
+"react-chartjs-2@npm:3.0.4":
   version: 3.0.4
   resolution: "react-chartjs-2@npm:3.0.4"
   dependencies:
@@ -7843,7 +7843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:^7.2.5":
+"react-redux@npm:7.2.5":
   version: 7.2.5
   resolution: "react-redux@npm:7.2.5"
   dependencies:
@@ -7923,7 +7923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-transition-group@npm:^4.4.2":
+"react-transition-group@npm:4.4.2":
   version: 4.4.2
   resolution: "react-transition-group@npm:4.4.2"
   dependencies:
@@ -8279,7 +8279,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"rollup-plugin-string@npm:^3.0.0":
+"rollup-plugin-string@npm:3.0.0":
   version: 3.0.0
   resolution: "rollup-plugin-string@npm:3.0.0"
   dependencies:
@@ -8941,7 +8941,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5":
+"styled-components@npm:5.3.1":
   version: 5.3.1
   resolution: "styled-components@npm:5.3.1"
   dependencies:
@@ -8963,7 +8963,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylelint-config-prettier@npm:^8.0.2":
+"stylelint-config-prettier@npm:8.0.2":
   version: 8.0.2
   resolution: "stylelint-config-prettier@npm:8.0.2"
   peerDependencies:
@@ -8975,7 +8975,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended@npm:^5.0.0":
+"stylelint-config-recommended@npm:5.0.0":
   version: 5.0.0
   resolution: "stylelint-config-recommended@npm:5.0.0"
   peerDependencies:
@@ -8984,14 +8984,14 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylelint-config-tailwindcss@npm:^0.0.1":
+"stylelint-config-tailwindcss@npm:0.0.1":
   version: 0.0.1
   resolution: "stylelint-config-tailwindcss@npm:0.0.1"
   checksum: f64f0cdd02550ed3e8872dc5693962920ffd03734f8285062c3e72459f998bab03797e3d3048f9f3719c364bde678d1993b32dea1f0cf1cdbc241138e7587be9
   languageName: node
   linkType: hard
 
-"stylelint@npm:^13.13.1":
+"stylelint@npm:13.13.1":
   version: 13.13.1
   resolution: "stylelint@npm:13.13.1"
   dependencies:
@@ -9186,7 +9186,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^2.2.11":
+"tailwindcss@npm:2.2.11":
   version: 2.2.11
   resolution: "tailwindcss@npm:2.2.11"
   dependencies:
@@ -9477,7 +9477,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^27.0.5":
+"ts-jest@npm:27.0.5":
   version: 27.0.5
   resolution: "ts-jest@npm:27.0.5"
   dependencies:
@@ -9508,7 +9508,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.2.1":
+"ts-node@npm:10.2.1":
   version: 10.2.1
   resolution: "ts-node@npm:10.2.1"
   dependencies:
@@ -9578,7 +9578,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"twin.macro@npm:^2.7.0":
+"twin.macro@npm:2.7.0":
   version: 2.7.0
   resolution: "twin.macro@npm:2.7.0"
   dependencies:
@@ -9670,7 +9670,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@^4.4.2:
+typescript@4.4.2:
   version: 4.4.2
   resolution: "typescript@npm:4.4.2"
   bin:
@@ -9680,7 +9680,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.2#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.4.2#~builtin<compat/typescript>":
   version: 4.4.2
   resolution: "typescript@patch:typescript@npm%3A4.4.2#~builtin<compat/typescript>::version=4.4.2&hash=32657b"
   bin:
@@ -9794,7 +9794,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:^0.4.5":
+"unplugin-auto-import@npm:0.4.5":
   version: 0.4.5
   resolution: "unplugin-auto-import@npm:0.4.5"
   dependencies:
@@ -9970,7 +9970,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"vite-imagetools@npm:^3.6.8":
+"vite-imagetools@npm:3.6.8":
   version: 3.6.8
   resolution: "vite-imagetools@npm:3.6.8"
   dependencies:
@@ -9981,7 +9981,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"vite-plugin-babel-macros@npm:^1.0.5":
+"vite-plugin-babel-macros@npm:1.0.5":
   version: 1.0.5
   resolution: "vite-plugin-babel-macros@npm:1.0.5"
   dependencies:
@@ -9997,7 +9997,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"vite-plugin-svg-icons@npm:^1.0.4":
+"vite-plugin-svg-icons@npm:1.0.4":
   version: 1.0.4
   resolution: "vite-plugin-svg-icons@npm:1.0.4"
   dependencies:
@@ -10014,7 +10014,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"vite-react-jsx@npm:^1.1.2":
+"vite-react-jsx@npm:1.1.2":
   version: 1.1.2
   resolution: "vite-react-jsx@npm:1.1.2"
   dependencies:
@@ -10029,7 +10029,7 @@ typescript@^4.4.2:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.5.4":
+"vite@npm:2.5.4":
   version: 2.5.4
   resolution: "vite@npm:2.5.4"
   dependencies:
