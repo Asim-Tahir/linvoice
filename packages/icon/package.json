@@ -1,0 +1,9 @@
+{
+  "name": "@linvoice/icon",
+  "version": "0.0.0",
+  "main": "./Icon.tsx",
+  "exports": {
+    ".": "./Icon.tsx",
+    "./icons/*": "./icons/*"
+  }
+}

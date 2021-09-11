@@ -1,0 +1,10 @@
+{
+  "name": "@linvoice/routes",
+  "version": "0.0.0",
+  "exports": {
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@linvoice/components": "workspace:packages/components"
+  }
+}
