@@ -11,7 +11,7 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "typeRoots": ["./nodu_modules/@types/", "./types/"],
+    "typeRoots": ["./nodu_modules/@types/", "packages/types"],
     "types": ["vite/client", "node", "@types/jest"],
     "isolatedModules": false,
     "noEmit": true,
@@ -19,15 +19,19 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@types": ["types"],
+      "@types": ["packages/types"],
       "@/*": ["src/*"]
     }
   },
   "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
     "src/**/*.ts",
     "src/**/*.tsx",
     "tests/**/*.tsx",
     "tests/**/*.ts",
-    "types/**/*.ts"
-, "src/serviceWorker.js"  ]
+    "src/serviceWorker.js",
+    "types/**/*.ts",
+    "*.ts"
+  ]
 }

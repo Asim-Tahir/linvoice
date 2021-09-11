@@ -5,31 +5,27 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import AccessibleNavigationAnnouncer from "@/components/AccessibleNavigationAnnouncer";
 import { Provider } from "react-redux";
+import { A11yNavigationAnnouncer } from "@linvoice/components";
 
-import store from "@/store";
+import store from "@linvoice/store";
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-const Layout = lazy(() => import("@/containers/Layout"));
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-const Login = lazy(() => import("@/pages/Login"));
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-const CreateAccount = lazy(() => import("@/pages/CreateAccount"));
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-const ForgotPassword = lazy(() => import("@/pages/ForgotPassword"));
+const Layout = lazy(
+  () => import("@linvoice/components/templates/containers/Layout")
+);
+const Login = lazy(() => import("@linvoice/components/pages/Login"));
+const CreateAccount = lazy(
+  () => import("@linvoice/components/pages/CreateAccount")
+);
+const ForgotPassword = lazy(
+  () => import("@linvoice/components/pages/ForgotPassword")
+);
 
 export default function App(): React.ReactElement {
   return (
     <Provider store={store}>
       <Router>
-        <AccessibleNavigationAnnouncer />
+        <A11yNavigationAnnouncer />
         <Switch>
           <Route path="/login" component={Login} />
           <Route path="/create-account" component={CreateAccount} />

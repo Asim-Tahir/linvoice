@@ -1,0 +1,13 @@
+{
+  "name": "@linvoice/assets",
+  "version": "0.0.0",
+  "exports": {
+    "./*": "./*",
+    "./images/*": "./images/*"
+  },
+  "files": [
+    "./images/**/*.png",
+    "./images/**/*.jpg",
+    "./images/**/*.jpeg"
+  ]
+}

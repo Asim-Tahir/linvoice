@@ -19,7 +19,7 @@ export default ({ mode }: { mode: string }) => {
       ViteReact(),
       ViteReactJSX(),
       SVGIcons({
-        iconDirs: [resolve(process.cwd(), "src/assets/svgs")],
+        iconDirs: [resolve(process.cwd(), "packages/icon/icons")],
         symbolId: "icon-[dir]-[name]",
       }),
       AutoImport({
@@ -32,7 +32,7 @@ export default ({ mode }: { mode: string }) => {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       ViteString({
-        include: "src/email/**/*.html",
+        include: "packages/utils/email/**/*.html",
         exclude: ["**/index.html"],
       }),
     ],

@@ -1,0 +1,11 @@
+{
+  "name": "@linvoice/store",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./index.ts",
+    "./types": "./types/index.d.ts"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1"
+  }
+}
