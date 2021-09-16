@@ -1564,12 +1564,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-transition-group@npm:4.4.2":
-  version: 4.4.2
-  resolution: "@types/react-transition-group@npm:4.4.2"
+"@types/react-transition-group@npm:4.4.3":
+  version: 4.4.3
+  resolution: "@types/react-transition-group@npm:4.4.3"
   dependencies:
     "@types/react": "*"
-  checksum: 35523ef25ae5bbf68793a52e9b996f8c7c337e0d10650bc964c26929547b062509c955f55e76651bcf604560594783f60c4bfcee290a263845f9e43eb0ab0d1e
+  checksum: 7e45c6bf50cdfdc482d9ce4c302cda65134b3a44306c749d46d2f3256ca8c95cbbc1cbe28c32010b9273f5db78c8d434a8cea3688ac6e5327443b8a8d1c1caac
   languageName: node
   linkType: hard
 
@@ -6306,7 +6306,7 @@ __metadata:
     "@types/react-dom": 17.0.9
     "@types/react-redux": 7.1.18
     "@types/react-router-dom": 5.1.8
-    "@types/react-transition-group": 4.4.2
+    "@types/react-transition-group": 4.4.3
     "@types/stylelint": 13.13.2
     "@types/testing-library__jest-dom": 5.14.1
     "@typescript-eslint/eslint-plugin": 4.31.0
