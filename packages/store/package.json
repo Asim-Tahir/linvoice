@@ -1,11 +1,19 @@
 {
   "name": "@linvoice/store",
   "version": "0.0.0",
+  "scripts": {
+    "test": "jest -i -- tests/",
+    "test+coverage": "jest -i tests/ --coverage",
+    "test:ci": "jest -i tests/ --ci",
+    "test@watch": "jest -i tests/ --watch"
+  },
   "exports": {
     ".": "./index.ts",
     "./types": "./types/index.d.ts"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.6.1"
+    "@linvoice/utils": "workspace:packages/utils",
+    "@reduxjs/toolkit": "^1.6.1",
+    "jest": "^27.2.0"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "twin": {
+    "preset": "styled-components"
+  },
+  "styledComponents": {
+    "pure": true
+  }
+}

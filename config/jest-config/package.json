@@ -1,0 +1,9 @@
+{
+  "name": "@linvoice/jest-config",
+  "version": "0.0.0",
+  "exports": {
+    "./preset/*": "./preset/*",
+    "./transformer/*": "./transformer/*",
+    "./setup": "./jest.setup.ts"
+  }
+}

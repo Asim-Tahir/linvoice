@@ -1,6 +1,7 @@
 import classnames from "classnames";
+import { Icons } from "@linvoice/icon/types";
 export interface IconProps extends React.SVGAttributes<SVGElement> {
-  name: string;
+  name: Icons;
   prefix?: string;
   color?: string;
   rounded?: boolean;
@@ -13,8 +14,8 @@ export default function Icon({
   prefix = "icon",
   color = "#333",
   rounded = false,
-  iconColorClass = "text-purple-600 dark:text-purple-100",
-  bgColorClass = "bg-purple-100 dark:bg-purple-600",
+  iconColorClass = "text-primary-600 dark:text-primary-100",
+  bgColorClass = "bg-primary-100 dark:bg-primary-600",
   ...props
 }: IconProps): React.ReactElement {
   const symbolId = `#${prefix}-${name}`;
@@ -23,7 +24,7 @@ export default function Icon({
     return (
       <div
         className={classnames(
-          "p-3 rounded-full",
+          "p-3 rounded-full w-min h-[min-content]",
           iconColorClass,
           bgColorClass,
           props.className

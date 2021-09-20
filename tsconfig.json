@@ -1,26 +1,13 @@
 {
+  "extends": "@linvoice/tsconfig",
   "compilerOptions": {
-    "target": "ESNext",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": false,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "resolveJsonModule": true,
-    "typeRoots": ["./nodu_modules/@types/", "packages/types"],
-    "types": ["vite/client", "node", "@types/jest"],
-    "isolatedModules": false,
-    "noEmit": true,
-    "jsxImportSource": "react",
-    "jsx": "react-jsx",
+    "typeRoots": ["./nodu_modules/@types/", "./types", "@linvoice/types"],
+    "types": ["vite/client", "@types/node", "@types/jest"],
     "baseUrl": ".",
     "paths": {
-      "@types": ["packages/types"],
-      "@/*": ["src/*"]
+      "@types": ["types"],
+      "@/*": ["src/*"],
+      "@linvoice/*": ["packages/*", "libraries/*"]
     }
   },
   "include": [

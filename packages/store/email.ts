@@ -1,13 +1,10 @@
 import { createSlice, nanoid, PayloadAction } from "@reduxjs/toolkit";
 
-// import { invoiceSlice } from "@/store/invoice";
 import { Email, Invoice } from "@linvoice/store/types";
 
-export const emailSlice = createSlice({
+const emailSlice = createSlice({
   name: "email",
-  initialState: {
-    email: {} as Email,
-  },
+  initialState: {} as Email,
   reducers: {
     send: {
       prepare(action: PayloadAction<{ email: Email; invoice: Invoice }>) {
@@ -31,5 +28,8 @@ export const emailSlice = createSlice({
   // },
 });
 
-export const emailReducer = emailSlice.reducer;
-export const emailActions = emailSlice.actions;
+export default {
+  slice: emailSlice,
+  actions: emailSlice.actions,
+  reducer: emailSlice.reducer,
+};

@@ -1,42 +1,24 @@
-import { lazy } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from "react-router-dom";
+import { Suspense } from "react";
+import RouterView from "@linvoice/router";
 import { Provider } from "react-redux";
-import { A11yNavigationAnnouncer } from "@linvoice/components";
+import { Windmill } from "@windmill/react-ui";
 
+import { StyledSuspense } from "@linvoice/components/styled";
+import { SidebarProvider } from "@linvoice/context";
 import store from "@linvoice/store";
 
-const Layout = lazy(
-  () => import("@linvoice/components/templates/containers/Layout")
-);
-const Login = lazy(() => import("@linvoice/components/pages/Login"));
-const CreateAccount = lazy(
-  () => import("@linvoice/components/pages/CreateAccount")
-);
-const ForgotPassword = lazy(
-  () => import("@linvoice/components/pages/ForgotPassword")
-);
+import "@linvoice/assets/styles/tailwind.pcss";
 
 export default function App(): React.ReactElement {
   return (
-    <Provider store={store}>
-      <Router>
-        <A11yNavigationAnnouncer />
-        <Switch>
-          <Route path="/login" component={Login} />
-          <Route path="/create-account" component={CreateAccount} />
-          <Route path="/forgot-password" component={ForgotPassword} />
-
-          {/* Place new routes over this */}
-          <Route path="/app" component={Layout} />
-          {/* If you have an index page, you can remothis Redirect */}
-          <Redirect exact from="/" to="/login" />
-        </Switch>
-      </Router>
-    </Provider>
+    <SidebarProvider>
+      <Suspense fallback={<StyledSuspense>Loading...</StyledSuspense>}>
+        <Windmill dark usePreferences>
+          <Provider store={store}>
+            <RouterView />
+          </Provider>
+        </Windmill>
+      </Suspense>
+    </SidebarProvider>
   );
 }

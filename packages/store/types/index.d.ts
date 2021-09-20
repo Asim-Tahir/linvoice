@@ -1,2 +1,2 @@
-export * from "./invoice";
-export * from "./email";
+export * from "./invoice.d";
+export * from "./email.d";

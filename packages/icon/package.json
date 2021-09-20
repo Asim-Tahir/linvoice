@@ -4,6 +4,7 @@
   "main": "./Icon.tsx",
   "exports": {
     ".": "./Icon.tsx",
-    "./icons/*": "./icons/*"
+    "./icons/*": "./icons/*",
+    "./types": "./types/index.d.ts"
   }
 }

@@ -1,28 +1,10 @@
-import { configureStore } from "@reduxjs/toolkit";
+export { default as invoicesStore } from "./invoices";
+export { default as servicesStore } from "./services";
+export { default as email } from "./email";
 
-import { invoiceReducer, serviceReducer } from "./invoice";
-import { emailReducer } from "./email";
+import { default as store } from "./store";
 
-const store = configureStore({
-  reducer: {
-    invoice: invoiceReducer,
-    service: serviceReducer,
-    email: emailReducer,
-  },
-});
+export type AppDispatch = typeof store.dispatch;
+export type RootState = ReturnType<typeof store.getState>;
 
 export default store;
-
-export * from "./invoice";
-export { emailActions, emailReducer, emailSlice } from "./email";
-export {
-  invoiceActions,
-  invoiceSlice,
-  serviceActions,
-  serviceSlice,
-  invoiceReducer,
-  serviceReducer,
-} from "./invoice";
-
-export type RootState = ReturnType<typeof store.getState>;
-export type AppDispatch = typeof store.dispatch;

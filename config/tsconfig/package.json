@@ -1,0 +1,6 @@
+{
+  "name": "@linvoice/tsconfig",
+  "exports": {
+    ".": "./tsconfig.json"
+  }
+}

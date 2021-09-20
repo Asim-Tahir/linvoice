@@ -45,7 +45,7 @@ export default function Header(): React.ReactElement {
             <Input
               css=""
               className="pl-8 text-gray-700"
-              placeholder="Search for projects"
+              placeholder="Search for invoices, services"
               aria-label="Search"
             />
           </div>
@@ -73,7 +73,7 @@ export default function Header(): React.ReactElement {
               aria-label="Notifications"
               aria-haspopup="true"
             >
-              <Icon name="bell" className="w-5 h-5" aria-hidden="true" />
+              <Icon name="filled-bell" className="w-5 h-5" aria-hidden="true" />
               {/* <!-- Notification badge --> */}
               <span
                 aria-hidden="true"
@@ -121,7 +121,7 @@ export default function Header(): React.ReactElement {
             >
               <DropdownItem tag="a" href="#">
                 <Icon
-                  name="outlinePerson"
+                  name="person"
                   className="w-4 h-4 mr-3"
                   aria-hidden="true"
                 />
@@ -129,7 +129,7 @@ export default function Header(): React.ReactElement {
               </DropdownItem>
               <DropdownItem tag="a" href="#">
                 <Icon
-                  name="outlineCog"
+                  name="outline-cog"
                   className="w-4 h-4 mr-3"
                   aria-hidden="true"
                 />
@@ -137,7 +137,7 @@ export default function Header(): React.ReactElement {
               </DropdownItem>
               <DropdownItem onClick={() => alert("Log out!")}>
                 <Icon
-                  name="outlineLogout"
+                  name="account-logout"
                   className="w-4 h-4 mr-3"
                   aria-hidden="true"
                 />

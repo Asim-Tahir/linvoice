@@ -1,4 +1,5 @@
 import Icon from "@linvoice/icon";
+import { Link } from "react-router-dom";
 
 export default function Page404(): React.ReactElement {
   return (
@@ -13,13 +14,12 @@ export default function Page404(): React.ReactElement {
       </h1>
       <p className="text-gray-700 dark:text-gray-300">
         Page not found. Check the address or{" "}
-        <a
+        <Link
           className="text-purple-600 hover:underline dark:text-purple-300"
-          href="../index.html"
+          to="/"
         >
           go back
-        </a>
-        .
+        </Link>
       </p>
     </div>
   );

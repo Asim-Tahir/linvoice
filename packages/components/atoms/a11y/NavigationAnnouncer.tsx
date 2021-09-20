@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-export default function AccessibleNavigationAnnouncer(): React.ReactElement {
+export default function NavigationAnnouncer(): React.ReactElement {
   const [message, setMessage] = useState("");
   const location = useLocation();
 

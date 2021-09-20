@@ -37,7 +37,7 @@ export default ({ mode }: { mode: string }) => {
       }),
     ],
     server: {
-      port: parseInt(process.env.VITE_PORT) || 3000,
+      port: parseInt(process.env.VITE_PORT || "3000"),
       cors: true,
       strictPort: false,
       hmr: true,

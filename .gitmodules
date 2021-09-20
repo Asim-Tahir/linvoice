@@ -1,0 +1,3 @@
+[submodule "windmill-react-ui"]
+  path = libraries/windmill-react-ui
+  url = git@github.com:Asim-Tahir/windmill-react-ui.git

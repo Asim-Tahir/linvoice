@@ -1,46 +1,40 @@
+import { StringUnion } from "@linvoice/utils";
+
 export interface Holder {
-  id: string;
-  email: string;
-  phone: string;
-  fax: string;
-  address: string;
-}
-
-export interface Individual extends Holder {
-  id: string;
   name: string;
-  surname: string;
+  job: string;
+  company?: string;
+  email?: string;
+  phone?: string;
+  address?: string;
 }
-
-export interface Company extends Holder {
-  id: string;
-  name: string;
-}
-
-export interface Expense {
-  id: string;
-  name: string;
-  price: number;
-}
-
-export interface Service {
-  id: string;
-  invoiceId: string;
+export interface ServiceInput {
+  invoiceID: string;
   product: string;
   description: string;
   price: number;
-  hourlyPrice: number;
-  expenses: Array<Expense>;
 }
 
-export type InvoiceStatus = "paid" | "outstanding" | "late";
-
-export interface Invoice<S extends Service = Service> {
+export interface Service extends ServiceInput {
   id: string;
-  services: Array<S>;
+}
+
+export const invoiceStatusUtil = StringUnion(
+  "paid",
+  "outstanding",
+  "late",
+  "pending"
+);
+
+export type InvoiceStatus = typeof invoiceStatusUtil.type;
+
+export interface InvoiceInput {
   description: string;
   status: InvoiceStatus;
-  dueDate: Date;
-  to: Individual | Company;
-  from: Individual | Company;
+  dueDate: string;
+  to: Holder;
+  from: Holder;
+}
+export interface Invoice extends InvoiceInput {
+  id: string;
 }

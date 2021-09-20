@@ -1,5 +1,6 @@
 import { useContext } from "react";
-import { Transition, Backdrop } from "@windmill/react-ui";
+import { Transition } from "@headlessui/react";
+import { Backdrop } from "@windmill/react-ui";
 
 import { SidebarContext } from "@linvoice/context";
 import SidebarContent from "./SidebarContent";
@@ -10,7 +11,7 @@ export default function MobileSidebar(): React.ReactElement {
   return (
     <Transition show={isSidebarOpen}>
       <>
-        <Transition
+        <Transition.Child
           enter="transition ease-in-out duration-150"
           enterFrom="opacity-0"
           enterTo="opacity-100"
@@ -19,9 +20,9 @@ export default function MobileSidebar(): React.ReactElement {
           leaveTo="opacity-0"
         >
           <Backdrop onClick={closeSidebar} />
-        </Transition>
+        </Transition.Child>
 
-        <Transition
+        <Transition.Child
           enter="transition ease-in-out duration-150"
           enterFrom="opacity-0 transform -translate-x-20"
           enterTo="opacity-100"
@@ -32,7 +33,7 @@ export default function MobileSidebar(): React.ReactElement {
           <aside className="fixed inset-y-0 z-50 flex-shrink-0 w-64 mt-16 overflow-y-auto bg-white dark:bg-gray-800 lg:hidden">
             <SidebarContent />
           </aside>
-        </Transition>
+        </Transition.Child>
       </>
     </Transition>
   );

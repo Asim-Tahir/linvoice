@@ -1,18 +1,19 @@
 import { useState, useMemo, createContext } from "react";
 
-// create context
-export const SidebarContext = createContext<{
+export interface ISidebarContext {
   isSidebarOpen: boolean;
   closeSidebar: () => void;
   toggleSidebar: () => void;
-}>({
+}
+
+export const SidebarContext = createContext<ISidebarContext>({
   isSidebarOpen: false,
-  closeSidebar: Function as () => void,
-  toggleSidebar: Function as () => void,
+  closeSidebar: () => void {},
+  toggleSidebar: () => void {},
 });
 
 export interface SidebarProviderProps {
-  children: React.ReactElement | string;
+  children: React.ReactNode;
 }
 
 export function SidebarProvider({

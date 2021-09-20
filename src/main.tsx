@@ -1,24 +1,7 @@
-import { Suspense } from "react";
 import ReactDOM from "react-dom";
-import { Windmill } from "@windmill/react-ui";
-
-import App from "@/App";
-import { StyledSuspense } from "@linvoice/components/styled";
-import { SidebarProvider } from "@linvoice/context";
 
 import "virtual:svg-icons-register";
 
-import "@linvoice/assets/styles/tailwind.pcss";
+import App from "@/App";
 
-ReactDOM.render(
-  // <React.StrictMode>
-  <SidebarProvider>
-    <Suspense fallback={<StyledSuspense>Loading...</StyledSuspense>}>
-      <Windmill dark usePreferences>
-        <App />
-      </Windmill>
-    </Suspense>
-  </SidebarProvider>,
-  // </React.StrictMode>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));

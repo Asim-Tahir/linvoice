@@ -13,10 +13,10 @@ export default function InfoCard({
 }: InfoCardProps): React.ReactElement {
   return (
     <Card>
-      <CardBody className="flex items-center">
+      <CardBody className="flex items-center space-x-6">
         {icon}
-        <div>
-          <p className="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+        <div className="flex flex-col space-y-1 justify-start">
+          <p className="text-sm font-medium text-gray-600 dark:text-gray-400">
             {title}
           </p>
           <p className="text-lg font-semibold text-gray-700 dark:text-gray-200">
