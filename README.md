@@ -284,3 +284,8 @@ Contributions are what make the open source community such an amazing place to b
 ## License
 
 Distributed under the Apache License. See [`LICENSE`](LICENSE) for more information.
+    
+## Credits
+[Windmill Dashboard](https://github.com/estevanmaito/windmill-dashboard-react/) by [Estevan Maito](https://github.com/estevanmaito) under [MIT License](https://github.com/estevanmaito/windmill-dashboard-react/blob/master/LICENSE)
+
+[Windmill React UI](https://github.com/estevanmaito/windmill-react-ui) by [Estevan Maito](https://github.com/estevanmaito) under [MIT License](https://github.com/estevanmaito/windmill-react-ui/blob/master/LICENSE)
