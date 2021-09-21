@@ -9,9 +9,9 @@ import {
   TableHeader,
   Table,
   Button,
-  StatusBadge,
 } from "@windmill/react-ui";
 import { PageTitle } from "@linvoice/components/styled";
+import { StatusBadge } from "@linvoice/components";
 import Icon from "@linvoice/icon";
 
 import tw from "twin.macro";

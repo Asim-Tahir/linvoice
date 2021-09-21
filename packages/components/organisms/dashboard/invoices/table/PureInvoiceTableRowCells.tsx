@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Transition } from "@headlessui/react";
-import { TableCell, StatusBadge } from "@windmill/react-ui";
-import { InvoiceRowAction } from "@linvoice/components";
+import { TableCell } from "@windmill/react-ui";
+import { InvoiceRowAction, StatusBadge } from "@linvoice/components";
 
 import type { Invoice } from "@linvoice/store/types";
 import { servicesStore } from "@linvoice/store";

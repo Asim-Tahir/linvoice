@@ -6,6 +6,7 @@ import {
   useMemo,
   createContext,
 } from "react";
+import defaultTheme from "./defaultTheme";
 
 /**
  * Saves the old theme for future use
@@ -47,8 +48,16 @@ function useStorageTheme(
   return [theme, setTheme];
 }
 
+interface ThemeContextInterface {
+  theme: typeof defaultTheme;
+  mode?: string | null;
+  toggleMode?: any;
+}
+
 // create context
-export const ThemeContext = createContext({});
+export const ThemeContext = createContext<ThemeContextInterface>({
+  theme: defaultTheme,
+});
 
 export interface ThemeProviderProps {
   children: React.ReactElement | string;

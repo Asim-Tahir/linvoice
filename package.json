@@ -25,7 +25,7 @@
     "@linvoice/context": "workspace:packages/context",
     "@linvoice/router": "workspace:packages/router",
     "@linvoice/store": "workspace:packages/store",
-    "@windmill/react-ui": "workspace:libraries/windmill-react-ui",
+    "@windmill/react-ui": "^0.6.0",
     "history": "^5.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -86,8 +86,7 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "config/*",
-      "libraries/*"
+      "config/*"
     ]
   },
   "packageManager": "yarn@3.0.2"

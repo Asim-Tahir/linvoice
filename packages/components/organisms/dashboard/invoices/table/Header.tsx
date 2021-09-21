@@ -11,7 +11,7 @@ export default function InvoiceTableHeader(): React.ReactElement {
       <TableRow>
         <TableCell>{/* This cell using for dropdown arrow icon */}</TableCell>
         <TableCell>ID</TableCell>
-        <TableCell>Description</TableCell>
+        <TableCell width="35%">Description</TableCell>
         <TableCell>Status</TableCell>
         <TableCell>Due Date</TableCell>
         <TableCell>To</TableCell>

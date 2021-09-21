@@ -9,7 +9,6 @@ import {
   TableFooter,
   TableCell,
   Pagination,
-  CollapsableTableRow,
 } from "@windmill/react-ui";
 import {
   ChartCard,
@@ -18,6 +17,7 @@ import {
   InvoiceActionBar,
   InvoiceTableHeader,
   SubServiceTableRow,
+  CollapsableTableRow,
 } from "@linvoice/components";
 import { PageTitle, Button } from "@linvoice/components/styled";
 
@@ -98,7 +98,7 @@ export default function Dashboard(): React.ReactElement {
       <InvoiceActionBar />
 
       <TableContainer>
-        <Table>
+        <Table className="">
           <InvoiceTableHeader />
           <TableBody>
             {invoices.map((invoice) => (
