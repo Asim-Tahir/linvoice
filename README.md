@@ -1,7 +1,7 @@
-<h1 align="center">Linvoice 📃</h1>
 <p align="center">
-  <img width="128px" src=""/>
+  <img width="256" src="https://user-images.githubusercontent.com/29407019/134232676-b8afe804-87c5-4dbd-885f-618524637f22.png"/>
 </p>
+
 <p align="center">
   Linvoice is simple invoince 📃 management application.
 </p>
