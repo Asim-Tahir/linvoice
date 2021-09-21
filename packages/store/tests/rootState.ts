@@ -82,6 +82,6 @@ export default {
 } as {
   invoices: EntityState<Invoice>;
   services: EntityState<Service>;
-  invoiceForm: DeepPartial<InvoiceInput>;
+  invoiceForm: InvoiceInput;
   serviceForm: DeepPartial<ServiceInput>;
 };

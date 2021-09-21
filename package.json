@@ -17,12 +17,7 @@
     "lint:style": "stylelint **/*.{css,pcss,postcss}",
     "lint:style@fix": "yarn lint:style --fix",
     "lint": "yarn lint:script && yarn lint:style",
-    "lint@fix": "yarn lint:script@fix && yarn lint:style@fix",
-    "test": "jest -i tests/",
-    "test:vite": "vite-jest -i tests/",
-    "test+coverage": "jest -i tests/ --coverage",
-    "test:ci": "jest -i tests/ --ci",
-    "test@watch": "jest -i tests/ --watch"
+    "lint@fix": "yarn lint:script@fix && yarn lint:style@fix"
   },
   "dependencies": {
     "@linvoice/assets": "workspace:packages/assets",

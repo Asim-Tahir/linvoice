@@ -15,7 +15,7 @@ describe("Invoice Store Reducers", () => {
       rootState.invoices,
       invoicesStore.actions.addMany([
         rootState.invoiceForm,
-        { ...rootState.invoiceForm, id: "idbvxxYRFL" },
+        rootState.invoiceForm,
       ])
     );
     expect(actual.ids).toHaveLength(4);
