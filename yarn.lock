@@ -7379,7 +7379,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-redux: 7.2.5
-    react-router-dom: ^6.0.0-beta.4
+    react-router-dom: 6.0.0-beta.5
     react-test-renderer: ^17.0.2
     rollup-plugin-string: 3.0.0
     stylelint: 13.13.1
@@ -9054,6 +9054,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:6.0.0-beta.5":
+  version: 6.0.0-beta.5
+  resolution: "react-router-dom@npm:6.0.0-beta.5"
+  dependencies:
+    react-router: 6.0.0-beta.5
+  peerDependencies:
+    history: ">=5"
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 65e078cd7e14166475fce669396206fdbbc53f27f2daf69d77ebfe2ce9343d6daf0e0b0ba2f1864c3ad44de39dbf33704f872fd56d3921e596381d88e9eab321
+  languageName: node
+  linkType: hard
+
 "react-router-dom@npm:^6.0.0-beta.4":
   version: 6.0.0-beta.4
   resolution: "react-router-dom@npm:6.0.0-beta.4"
@@ -9074,6 +9087,16 @@ __metadata:
     history: ">=5"
     react: ">=16.8"
   checksum: a2fb9840a577ae49c08bc7cf1caae9fbf054e8abc8be917937e79e139fd0bee4b953f8c067122a4fe331235f442ee18cd67fc5700749bc580872083bf50dd5e9
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.0.0-beta.5":
+  version: 6.0.0-beta.5
+  resolution: "react-router@npm:6.0.0-beta.5"
+  peerDependencies:
+    history: ">=5"
+    react: ">=16.8"
+  checksum: 53c460f25b99068082b982ba0cd599e1ab0ad5083ab6b4d919c08b1d2f4cbbadfa8038c9f110a8becb5b713d742dd336d77821ffaa41c33338a7eeca5e94eaec
   languageName: node
   linkType: hard
 
