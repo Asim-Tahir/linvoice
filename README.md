@@ -67,11 +67,11 @@
 > This repository contains external libraries that have been modified as submodules.
 
 ```bash
-git clone https://github.com/Asim-Tahir/react-frontend-homework.git
+git clone https://github.com/Asim-Tahir/linvoice.git
 ```
 
 ```bash
-git clone git@github.com:Asim-Tahir/react-frontend-homework.git
+git clone git@github.com:Asim-Tahir/linvoice.git
 ```
 
 ### 2. Install dependencies
