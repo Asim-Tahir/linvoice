@@ -71,7 +71,7 @@
     "stylelint": "13.13.1",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-recommended": "5.0.0",
-    "stylelint-config-tailwindcss": "0.0.1",
+    "stylelint-config-tailwindcss": "0.0.2",
     "tailwindcss": "2.2.15",
     "ts-jest": "^27.0.5",
     "ts-node": "10.2.1",

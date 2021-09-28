@@ -7385,7 +7385,7 @@ __metadata:
     stylelint: 13.13.1
     stylelint-config-prettier: 8.0.2
     stylelint-config-recommended: 5.0.0
-    stylelint-config-tailwindcss: 0.0.1
+    stylelint-config-tailwindcss: 0.0.2
     tailwindcss: 2.2.15
     ts-jest: ^27.0.5
     ts-node: 10.2.1
@@ -10264,10 +10264,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylelint-config-tailwindcss@npm:0.0.1":
-  version: 0.0.1
-  resolution: "stylelint-config-tailwindcss@npm:0.0.1"
-  checksum: f64f0cdd02550ed3e8872dc5693962920ffd03734f8285062c3e72459f998bab03797e3d3048f9f3719c364bde678d1993b32dea1f0cf1cdbc241138e7587be9
+"stylelint-config-tailwindcss@npm:0.0.2":
+  version: 0.0.2
+  resolution: "stylelint-config-tailwindcss@npm:0.0.2"
+  peerDependencies:
+    stylelint: ^13.13.1
+    tailwindcss: ^2.2.16
+  checksum: 34f6ad1c29bb9c137e402d78bafd4c53db0712650c7fc1957128ca210351aa3ea8c1b73020be4980af35ea7b5e85544d1f711514e4e42a09da89bbe5a3c634e0
   languageName: node
   linkType: hard
 
