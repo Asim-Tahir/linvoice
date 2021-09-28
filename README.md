@@ -64,8 +64,6 @@
 
 ### 1. Clone repo in your local machine
 
-> This repository contains external libraries that have been modified as submodules.
-
 ```bash
 git clone https://github.com/Asim-Tahir/linvoice.git
 ```
