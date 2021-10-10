@@ -3,6 +3,6 @@
   "version": "0.0.0",
   "exports": "./index.js",
   "peerDependencies": {
-    "eslint": "^7"
+    "eslint": "^7 || ^8.0.0"
   }
 }
