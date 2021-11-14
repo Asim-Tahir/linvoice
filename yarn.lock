@@ -6160,6 +6160,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"history@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "history@npm:5.1.0"
+  dependencies:
+    "@babel/runtime": ^7.7.6
+  checksum: c978710a188ee5ad5d2acf55721c77e27469578c891a66311e71e8920d1390d14476e39a6db07e0ab0f5f8d594f1f62eb55a1059c7549cde7795a36367df5869
+  languageName: node
+  linkType: hard
+
 "hoist-non-react-statics@npm:^3.0.0, hoist-non-react-statics@npm:^3.3.0, hoist-non-react-statics@npm:^3.3.2":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
@@ -8190,7 +8199,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-redux: 7.2.6
-    react-router-dom: 6.0.0-beta.6
+    react-router-dom: 6.0.2
     react-test-renderer: 17.0.2
     rollup-plugin-string: 3.0.0
     stylelint: 14.0.1
@@ -9831,16 +9840,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:6.0.0-beta.6":
-  version: 6.0.0-beta.6
-  resolution: "react-router-dom@npm:6.0.0-beta.6"
+"react-router-dom@npm:6.0.2":
+  version: 6.0.2
+  resolution: "react-router-dom@npm:6.0.2"
   dependencies:
-    react-router: 6.0.0-beta.6
+    history: ^5.1.0
+    react-router: 6.0.2
   peerDependencies:
-    history: ">=5"
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 78fe310e415f02e431ac915ef7e76eb84311771c8d19d2c741681ac1cf2fa121c070114af1fa38fb7a516fd8aaf7ce14c625de4c2d6db0aa46555539f32ecc85
+  checksum: d3680939a4fac286f8df028c1fabe5626567ba065b2029b1cc4ad64fe9444aeba186d0e5e765563fc36ea868e7d17e02fb098f2ebc0b1c70212a8470a4b58ad6
   languageName: node
   linkType: hard
 
@@ -9867,13 +9876,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.0.0-beta.6":
-  version: 6.0.0-beta.6
-  resolution: "react-router@npm:6.0.0-beta.6"
+"react-router@npm:6.0.2":
+  version: 6.0.2
+  resolution: "react-router@npm:6.0.2"
+  dependencies:
+    history: ^5.1.0
   peerDependencies:
-    history: ">=5"
     react: ">=16.8"
-  checksum: 8ed3c0aaf8c4d513b0dfdfa8d2c96460e96de37e603e92b51ad9134b77a656a7ac6f04bf528b58bf7ded0b3b6acbc21fb8a00f1ce14b8e2187b5bff889a92c44
+  checksum: 9d4f3a8002a90f38be022c6740e11e9bb481e60ad04c5a0ce2d6dbe685059c09b3037c45414d6e7e40eb97308842380413cfb93c5cdcb992e7ee0c50b4f7fcaa
   languageName: node
   linkType: hard
 
