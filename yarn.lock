@@ -8469,7 +8469,7 @@ __metadata:
     ts-node: 10.4.0
     typescript: 4.4.4
     unplugin-auto-import: 0.4.14
-    vite: 2.6.5
+    vite: 2.6.14
     vite-imagetools: 4.0.0
     vite-plugin-babel-macros: 1.0.5
     vite-plugin-svg-icons: 1.0.5
@@ -12260,9 +12260,9 @@ typescript@4.4.4:
   languageName: node
   linkType: hard
 
-"vite@npm:2.6.5":
-  version: 2.6.5
-  resolution: "vite@npm:2.6.5"
+"vite@npm:2.6.14":
+  version: 2.6.14
+  resolution: "vite@npm:2.6.14"
   dependencies:
     esbuild: ^0.13.2
     fsevents: ~2.3.2
@@ -12285,7 +12285,7 @@ typescript@4.4.4:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 3e0c47942b84d5b3d4156ae6e9428bab6e7d70e52795a2269fb709d2fb50c68f80b9938a695086c669761701d9222f66b2b21ba57f57ef69e384c9573d1b41bf
+  checksum: 4bf2b7407771440de81546932cf0b1bd74f9254e6056665a596b9310f37b2d34a65728a2a0525300ef48fa1f3e2ec5a3366326eecf31db7b86c19463e22186a8
   languageName: node
   linkType: hard
 
