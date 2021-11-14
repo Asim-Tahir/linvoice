@@ -1949,7 +1949,7 @@ __metadata:
     "@linvoice/icon": "workspace:packages/icon"
     "@linvoice/types": "workspace:packages/types"
     "@types/color": 3.0.2
-    "@types/react": 17.0.27
+    "@types/react": 17.0.34
     "@types/react-dom": 17.0.11
     "@types/styled-components": 5.1.15
     "@windmill/react-ui": ^0.6.0
@@ -2676,14 +2676,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.27":
-  version: 17.0.27
-  resolution: "@types/react@npm:17.0.27"
+"@types/react@npm:17.0.34":
+  version: 17.0.34
+  resolution: "@types/react@npm:17.0.34"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 3a1147d963c16dc9bbea5afb20c4be94f2389cf4eca4c5fbe9b02f3406bd9957602c0459ea017c95f8c3d523221f572e8bd842f94654835776d4c2923357f9dc
+  checksum: 16729ad7d50922ccbf8eb93874d7781dc2f1c64edc78134b5edc7154839d41e9fe320eb1c11ad2d1c9bf28b99cb1febda344509c1fda025955a5c2b43c688c8f
   languageName: node
   linkType: hard
 
@@ -8169,7 +8169,7 @@ __metadata:
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
     "@types/node": 16.9.2
-    "@types/react": 17.0.27
+    "@types/react": 17.0.34
     "@types/react-dom": 17.0.11
     "@types/react-redux": 7.1.20
     "@types/react-test-renderer": 17.0.1
