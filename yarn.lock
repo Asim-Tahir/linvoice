@@ -2731,10 +2731,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.9.2":
-  version: 16.9.2
-  resolution: "@types/node@npm:16.9.2"
-  checksum: 204aa883bc93a267f43804af8872e538935369ab905d5ca702d2c17a213339f8df974bb95d21e2e714e8f83f669b185d8526f7c4b5d16adbdb5d96d4f2e75fa9
+"@types/node@npm:16.11.7":
+  version: 16.11.7
+  resolution: "@types/node@npm:16.11.7"
+  checksum: 2706403e6efc4aa40fdce8f0b5d9884d5600c3c8610aedc7fa5e7e298d30366f7e8b7296028d52898dca3edef4c3e827b03bf20952c4780f13fa4e79864f7a86
   languageName: node
   linkType: hard
 
@@ -8406,7 +8406,7 @@ __metadata:
     "@testing-library/jest-dom": 5.14.1
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.2
-    "@types/node": 16.9.2
+    "@types/node": 16.11.7
     "@types/react": 17.0.34
     "@types/react-dom": 17.0.11
     "@types/react-redux": 7.1.20
