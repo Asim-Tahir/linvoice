@@ -36,7 +36,7 @@
     "@linvoice/eslint-config": "workspace:config/eslint-config",
     "@linvoice/jest-config": "workspace:config/jest-config",
     "@linvoice/tsconfig": "workspace:config/tsconfig",
-    "@swc-node/jest": "1.4.0",
+    "@swc-node/jest": "1.4.1",
     "@testing-library/jest-dom": "5.15.0",
     "@testing-library/react": "12.1.2",
     "@types/jest": "27.0.2",
