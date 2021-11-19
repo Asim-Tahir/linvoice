@@ -6508,12 +6508,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"imagetools-core@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "imagetools-core@npm:3.0.0"
+"imagetools-core@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "imagetools-core@npm:3.0.1"
   dependencies:
     sharp: ^0.28.2
-  checksum: 4d2188dc81b145fad9b059c66f886512cab2b83dcc423706a6c17693471440d589c961c135d6a21470e39f783841b1e397577101e542d0f380a4de8ff1b54a68
+  checksum: 4fa44febef3f9587b13fac38937c95d2f2cef39e38b61ac5b6860c986daa3dd05b524d0ef84ee6249d791085fca5a6c35734999d323a68ed28b3b01ee1325f91
   languageName: node
   linkType: hard
 
@@ -8418,7 +8418,7 @@ __metadata:
     typescript: 4.5.2
     unplugin-auto-import: 0.4.14
     vite: 2.6.14
-    vite-imagetools: 4.0.0
+    vite-imagetools: 4.0.1
     vite-plugin-babel-macros: 1.0.5
     vite-plugin-svg-icons: 1.0.5
     vite-react-jsx: 1.1.2
@@ -12141,14 +12141,14 @@ typescript@4.5.2:
   languageName: node
   linkType: hard
 
-"vite-imagetools@npm:4.0.0":
-  version: 4.0.0
-  resolution: "vite-imagetools@npm:4.0.0"
+"vite-imagetools@npm:4.0.1":
+  version: 4.0.1
+  resolution: "vite-imagetools@npm:4.0.1"
   dependencies:
     "@rollup/pluginutils": ^4.1.1
-    imagetools-core: ^3.0.0
+    imagetools-core: ^3.0.1
     magic-string: ^0.25.7
-  checksum: a58a7fcc7ec1d71ad0dab032af5e0c2e7d555abc16b8bd8b39145acfcec268b3dc66040260d7a673e1455bd730e6b7fbe7f0a69cc07ad94345dba7c64b3bd440
+  checksum: 129c51c881a2a85947fba6cb3221debd27d075231dbdb9e47e2873d473a3343103393b6d20474685cdadd5c98c6e8a53e5c23c6c8528114026c317ab8fd91627
   languageName: node
   linkType: hard
 
