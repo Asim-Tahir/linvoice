@@ -1968,7 +1968,7 @@ __metadata:
     history: ^5.0.1
     ms: ^3.0.0-canary.1
     react: ^17.0.2
-    react-chartjs-2: ^3.0.5
+    react-chartjs-2: ^4.0.0
     react-dom: ^17.0.2
     react-hook-form: ^7.15.3
     react-router-dom: ^6.0.0-beta.4
@@ -8530,7 +8530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
+"lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -9969,15 +9969,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-chartjs-2@npm:^3.0.5":
-  version: 3.0.5
-  resolution: "react-chartjs-2@npm:3.0.5"
-  dependencies:
-    lodash: ^4.17.19
+"react-chartjs-2@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "react-chartjs-2@npm:4.0.0"
   peerDependencies:
     chart.js: ^3.5.0
     react: ^16.8.0 || ^17.0.0
-  checksum: e21fad0db09caf9b9345a40766dd942fb24066a467a9c041555008aa9f619d73f7227e69abe3aba4d126f5677f789da682f023d07de9a502b97c0e55e90a657d
+  checksum: 25998a4cc14910641c1184245c6672211d436877a456c70fa16bf67e2b470e7899cef578618fd8842a7d25103a973f25c7f7ec01200fdcbe1b04913fabb87650
   languageName: node
   linkType: hard
 
