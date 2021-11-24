@@ -8443,7 +8443,7 @@ __metadata:
     ts-jest: 27.0.7
     ts-node: 10.4.0
     typescript: 4.5.2
-    unplugin-auto-import: 0.4.14
+    unplugin-auto-import: 0.4.17
     vite: 2.6.14
     vite-imagetools: 4.0.1
     vite-plugin-babel-macros: 1.0.5
@@ -8463,12 +8463,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"local-pkg@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "local-pkg@npm:0.1.0"
+"local-pkg@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "local-pkg@npm:0.4.0"
   dependencies:
     mlly: ^0.2.2
-  checksum: 73189c67fff8c9ae1fc8448a2ab18825f645951e41efb5dce2877c3671864f1cd1527d4d86fc25bc0f6350c252a83fb451f7952864ff69c0689d3d8e18031580
+  checksum: 46964cea4b5a2c83d4206cd2e8ea72a4caed444ac1ef51a27c6b545457cb734005768534032a67bca4249f50ee2d557dba2aa027eb594c409d1169f984dc89f8
   languageName: node
   linkType: hard
 
@@ -12016,28 +12016,28 @@ typescript@4.5.2:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:0.4.14":
-  version: 0.4.14
-  resolution: "unplugin-auto-import@npm:0.4.14"
+"unplugin-auto-import@npm:0.4.17":
+  version: 0.4.17
+  resolution: "unplugin-auto-import@npm:0.4.17"
   dependencies:
     "@antfu/utils": ^0.3.0
     "@rollup/pluginutils": ^4.1.1
-    local-pkg: ^0.1.0
+    local-pkg: ^0.4.0
     magic-string: ^0.25.7
     resolve: ^1.20.0
-    unplugin: ^0.2.15
+    unplugin: ^0.2.21
   peerDependencies:
-    "@vueuse/core": ^6.0.0
+    "@vueuse/core": "*"
   peerDependenciesMeta:
     "@vueuse/core":
       optional: true
-  checksum: c4b606950dda0ec2e65effe44d4c0f0befeb8613e35ba5ae41567a05c416482b1529378fcf4f41c0256e35235acc49fd898ef577103cc6ffdd9cd0aef0950b72
+  checksum: 8490084835a4043bad59c63df4ec496aba1ea98e3a56df02c2a98221395869ba34ba534e7ad7ea1d7806cf1b68ac91eb32cec0968cc33d302a28f034bcff4c98
   languageName: node
   linkType: hard
 
-"unplugin@npm:^0.2.15":
-  version: 0.2.16
-  resolution: "unplugin@npm:0.2.16"
+"unplugin@npm:^0.2.21":
+  version: 0.2.21
+  resolution: "unplugin@npm:0.2.21"
   dependencies:
     webpack-virtual-modules: ^0.4.3
   peerDependencies:
@@ -12051,7 +12051,7 @@ typescript@4.5.2:
       optional: true
     webpack:
       optional: true
-  checksum: fc1495ab518bdf0dd748cb6f2386f935d3f2b8084b293da70e20c9ec7d48e54cffdb69c8317811076cf44cf2dcd4924949484a721850f9c8ba336b6f3ce8b7fd
+  checksum: 8f04d3939c0c8fa53e44b942650d1886034af3d74396b57fd7e9ba24774e75ff67036fcfc29531ae0669414f2a301a299168c2505278a48d8aec3281aac99393
   languageName: node
   linkType: hard
 
