@@ -63,7 +63,7 @@
     "jest": "27.3.1",
     "jest-circus": "27.3.1",
     "jest-transform-stub": "2.0.0",
-    "postcss": "8.4.1",
+    "postcss": "8.4.3",
     "postcss-import": "14.0.2",
     "prettier": "2.5.0",
     "react-test-renderer": "17.0.2",
