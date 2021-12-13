@@ -8599,7 +8599,7 @@ __metadata:
     typescript: 4.5.3
     unplugin-auto-import: 0.5.3
     vite: 2.7.2
-    vite-imagetools: 4.0.1
+    vite-imagetools: 4.0.2
     vite-plugin-babel-macros: 1.0.5
     vite-plugin-svg-icons: 1.0.5
     vite-react-jsx: 1.1.2
@@ -12310,14 +12310,14 @@ typescript@4.5.3:
   languageName: node
   linkType: hard
 
-"vite-imagetools@npm:4.0.1":
-  version: 4.0.1
-  resolution: "vite-imagetools@npm:4.0.1"
+"vite-imagetools@npm:4.0.2":
+  version: 4.0.2
+  resolution: "vite-imagetools@npm:4.0.2"
   dependencies:
     "@rollup/pluginutils": ^4.1.1
     imagetools-core: ^3.0.1
     magic-string: ^0.25.7
-  checksum: 129c51c881a2a85947fba6cb3221debd27d075231dbdb9e47e2873d473a3343103393b6d20474685cdadd5c98c6e8a53e5c23c6c8528114026c317ab8fd91627
+  checksum: 3710c55a123aa37c5f68cdd6825b292701393a84024b19ededed75ba118aedeeb7717af3b0df1e3c8396491a2d66c075f3726396f4db7aa9fef91e708e361fc3
   languageName: node
   linkType: hard
 
