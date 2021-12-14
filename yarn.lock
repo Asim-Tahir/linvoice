@@ -1971,7 +1971,7 @@ __metadata:
     "@types/color": 3.0.2
     "@types/react": 17.0.37
     "@types/react-dom": 17.0.11
-    "@types/styled-components": 5.1.17
+    "@types/styled-components": 5.1.18
     "@windmill/react-ui": ^0.6.0
     chart.js: 3.6.2
     classnames: ^2.3.1
@@ -2852,14 +2852,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:5.1.17":
-  version: 5.1.17
-  resolution: "@types/styled-components@npm:5.1.17"
+"@types/styled-components@npm:5.1.18":
+  version: 5.1.18
+  resolution: "@types/styled-components@npm:5.1.18"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: 2392a07259a099a6e59bdce00f0abcccf41f49d24feb4d028e2df7067b569c2a6eea13c8909effe6e62e3c5d9c584009e0eadbe217671c0058def39ebff760a6
+  checksum: f4d99353e53781283549f5988fda3b3d4cf8fc1bca6624a215883851148db0d5c65c0d0b04ff0a9de43cbce54219a46fe5272278391051e7a4164b4b5e5bd125
   languageName: node
   linkType: hard
 
