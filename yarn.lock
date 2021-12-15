@@ -2322,22 +2322,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/core@npm:^1.8.1":
-  version: 1.8.1
-  resolution: "@swc-node/core@npm:1.8.1"
+"@swc-node/core@npm:^1.8.2":
+  version: 1.8.2
+  resolution: "@swc-node/core@npm:1.8.2"
   dependencies:
     "@swc/core": ^1.2.119
-  checksum: 966518f6779ef2a1333309945e6cb67e1035bf580d6a3aa7582062eccd08fe2c7918218c9f3bbe630c0bd537b74c1a20e612f10385763398724f64b52cbb2dc5
+  checksum: e137b1751983a27ce120286960ce6d87071e2605a8467a9f6b8875b305e0328fa67b53582dfab52b5d6be8d6e86091777244a1aaa579de6d6c84e31b1f66d223
   languageName: node
   linkType: hard
 
-"@swc-node/jest@npm:1.4.2":
-  version: 1.4.2
-  resolution: "@swc-node/jest@npm:1.4.2"
+"@swc-node/jest@npm:1.4.3":
+  version: 1.4.3
+  resolution: "@swc-node/jest@npm:1.4.3"
   dependencies:
     "@node-rs/xxhash": ^1.0.1
-    "@swc-node/core": ^1.8.1
-  checksum: 4e6ebfc1f3f94c29b306384010effcea0a92f9a65edbe94508e65e4516b795efdc9ad1ac09093d77ab2a9cfee3e0c8d1e4dca337d848b2f5916f3d76052f27c7
+    "@swc-node/core": ^1.8.2
+  checksum: bfc7b7c54eaa761f7bc31c3afda9fcfb99b177efee39b08cda2a2014f60eccf45a6dfefe4d8973d4cc34b4193516f434ca891b71d084185582122d86c27738cf
   languageName: node
   linkType: hard
 
@@ -8551,7 +8551,7 @@ __metadata:
     "@linvoice/router": "workspace:packages/router"
     "@linvoice/store": "workspace:packages/store"
     "@linvoice/tsconfig": "workspace:config/tsconfig"
-    "@swc-node/jest": 1.4.2
+    "@swc-node/jest": 1.4.3
     "@testing-library/jest-dom": 5.16.1
     "@testing-library/react": 12.1.2
     "@types/jest": 27.0.3
