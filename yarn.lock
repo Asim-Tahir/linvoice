@@ -5883,14 +5883,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:5.0.1":
-  version: 5.0.1
-  resolution: "eslint-plugin-testing-library@npm:5.0.1"
+"eslint-plugin-testing-library@npm:5.0.2":
+  version: 5.0.2
+  resolution: "eslint-plugin-testing-library@npm:5.0.2"
   dependencies:
     "@typescript-eslint/experimental-utils": ^5.5.0
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: a609f65d4ef4d2c68904e6a52ed22a9dd6ed4de3157937c16a56de1021c6270dc8041785a2f0603d619575c4a957e93476c29e28a756cf6973526a8aeafc9e13
+  checksum: 936eb62718bbb31177871b9a4e754b156a2b25bc0c500b81d9069fc460f29b69e265a259521695ee2e61ef2e8060772ca625b9bda06dcbfc0b0bb5d5436bbd16
   languageName: node
   linkType: hard
 
@@ -8915,7 +8915,7 @@ __metadata:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: 7.28.0
     eslint-plugin-react-hooks: 4.3.0
-    eslint-plugin-testing-library: 5.0.1
+    eslint-plugin-testing-library: 5.0.2
     history: 5.2.0
     jest: 27.4.7
     jest-circus: 27.4.6
