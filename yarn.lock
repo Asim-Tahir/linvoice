@@ -5343,10 +5343,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:14.0.0":
-  version: 14.0.0
-  resolution: "dotenv@npm:14.0.0"
-  checksum: 515b644564e02cbcff3fb2282e1db32f7ad55746f95cf29807c6f0e2099b3dd6c3f05380ba5470a8e9cadf65f931c125aa65cbd1dd9e4256c5ce33564d2efb5c
+"dotenv@npm:14.1.0":
+  version: 14.1.0
+  resolution: "dotenv@npm:14.1.0"
+  checksum: 9e7afe54688c6ddd270797766b1f51421cc1d38cce5a470750537d598cc1719e1b6effcb35022fccd949f2da701b5f186d4c0da44a72fb3a8bd1e2513159a9d2
   languageName: node
   linkType: hard
 
@@ -8885,7 +8885,7 @@ __metadata:
     "@vitejs/plugin-react-refresh": 1.3.6
     "@windmill/react-ui": 0.6.0
     autoprefixer: 10.4.2
-    dotenv: 14.0.0
+    dotenv: 14.1.0
     eslint: 8.7.0
     eslint-config-prettier: 8.3.0
     eslint-plugin-jest: 25.7.0
