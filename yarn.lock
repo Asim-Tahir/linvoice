@@ -8966,7 +8966,7 @@ __metadata:
     vite: 2.7.13
     vite-imagetools: 4.0.3
     vite-plugin-babel-macros: 1.0.5
-    vite-plugin-svg-icons: 2.0.0
+    vite-plugin-svg-icons: 2.0.1
     vite-react-jsx: 1.1.2
   languageName: unknown
   linkType: soft
@@ -12742,9 +12742,9 @@ typescript@4.5.5:
   languageName: node
   linkType: hard
 
-"vite-plugin-svg-icons@npm:2.0.0":
-  version: 2.0.0
-  resolution: "vite-plugin-svg-icons@npm:2.0.0"
+"vite-plugin-svg-icons@npm:2.0.1":
+  version: 2.0.1
+  resolution: "vite-plugin-svg-icons@npm:2.0.1"
   dependencies:
     "@types/svgo": ^2.6.1
     cors: ^2.8.5
@@ -12756,7 +12756,7 @@ typescript@4.5.5:
     svgo: ^2.8.0
   peerDependencies:
     vite: ">=2.0.0"
-  checksum: 2305adcd48a74b785d67ca1e371b22f70c423a070e733600f25758f245ce6d14d58478e909ebf8a24370da36f0091772eed4ef0073986358d6cb595fcca49924
+  checksum: 7c83d1941084b7b94cfbfdc76a8fdc1d29fc861fbbf326575767e662bba8e7eb90965bcc2c6b5f6007c286859f25c77f4158a6a5654cfce9826ad8297ceb9904
   languageName: node
   linkType: hard
 
