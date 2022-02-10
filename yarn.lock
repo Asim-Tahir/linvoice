@@ -8989,7 +8989,7 @@ __metadata:
     react-router-dom: 6.2.1
     react-test-renderer: 17.0.2
     rollup-plugin-string: 3.0.0
-    stylelint: 14.4.0
+    stylelint: 14.5.0
     stylelint-config-prettier: 9.0.3
     stylelint-config-recommended: 7.0.0
     stylelint-config-tailwindcss: 0.0.3
@@ -11888,9 +11888,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylelint@npm:14.4.0":
-  version: 14.4.0
-  resolution: "stylelint@npm:14.4.0"
+"stylelint@npm:14.5.0":
+  version: 14.5.0
+  resolution: "stylelint@npm:14.5.0"
   dependencies:
     balanced-match: ^2.0.0
     colord: ^2.9.2
@@ -11935,7 +11935,7 @@ resolve@^2.0.0-next.3:
     write-file-atomic: ^4.0.0
   bin:
     stylelint: bin/stylelint.js
-  checksum: 06dda5cd95dabbd53c5c94621c29d22ec07fee4ad91552019d68ec64dbd7f442ac94189e930d80e989da027c355152eeaa4c4de51c37394dfe83efd42dc828d6
+  checksum: b4244701f7a276528b2e3c262406514d85a023ec623547bc762dfa1db6ab910ba867e6e012c10937e5a750e61e5f0656ec6e66ffc4a368733c2f595b0dd19702
   languageName: node
   linkType: hard
 
