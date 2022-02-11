@@ -8993,7 +8993,7 @@ __metadata:
     stylelint-config-prettier: 9.0.3
     stylelint-config-recommended: 7.0.0
     stylelint-config-tailwindcss: 0.0.3
-    tailwindcss: 3.0.20
+    tailwindcss: 3.0.21
     ts-jest: 27.1.3
     ts-node: 10.5.0
     typescript: 4.5.5
@@ -10338,15 +10338,6 @@ __metadata:
   dependencies:
     fast-diff: ^1.1.2
   checksum: 00ce8011cf6430158d27f9c92cfea0a7699405633f7f1d4a45f07e21bf78e99895911cbcdc3853db3a824201a7c745bd49bfea8abd5fb9883e765a90f74f8392
-  languageName: node
-  linkType: hard
-
-"prettier-plugin-tailwindcss@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "prettier-plugin-tailwindcss@npm:0.1.7"
-  peerDependencies:
-    prettier: ">=2.2.0"
-  checksum: a692a025a1c73bc95b0c1b2d1763ee47023908f95e83f120517e87f82bc4885a202ef5a0819f8b3c12bf71286b9ab6d4d014342983d84ba878bcef0e20a4e0d8
   languageName: node
   linkType: hard
 
@@ -12073,9 +12064,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.0.20":
-  version: 3.0.20
-  resolution: "tailwindcss@npm:3.0.20"
+"tailwindcss@npm:3.0.21":
+  version: 3.0.21
+  resolution: "tailwindcss@npm:3.0.21"
   dependencies:
     arg: ^5.0.1
     chalk: ^4.1.2
@@ -12095,7 +12086,6 @@ resolve@^2.0.0-next.3:
     postcss-nested: 5.0.6
     postcss-selector-parser: ^6.0.9
     postcss-value-parser: ^4.2.0
-    prettier-plugin-tailwindcss: ^0.1.7
     quick-lru: ^5.1.1
     resolve: ^1.22.0
   peerDependencies:
@@ -12104,7 +12094,7 @@ resolve@^2.0.0-next.3:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 1b75b30a2556198a7dcfba12142a864fb6ede1cd50a385c51047a92a14a1a1e97c4e0faa12f9bd91b22564ad7a0ac8fa233078894e8c9c657499cf68e746fc00
+  checksum: 5ee9bd7bfc746a929ec9d6fe4bd3be0d9e7b2cebf5f1047aab58795773d9c456dd1b7dbedb6b59d58a5c36605445f97626e9132c420394b73f006bbbd2c3e759
   languageName: node
   linkType: hard
 
