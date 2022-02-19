@@ -52,7 +52,7 @@
     "autoprefixer": "10.4.2",
     "dotenv": "16.0.0",
     "eslint": "8.9.0",
-    "eslint-config-prettier": "8.3.0",
+    "eslint-config-prettier": "8.4.0",
     "eslint-plugin-jest": "26.1.1",
     "eslint-plugin-jest-dom": "4.0.1",
     "eslint-plugin-jsx-a11y": "6.5.1",
