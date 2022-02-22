@@ -8962,7 +8962,7 @@ __metadata:
     ts-jest: 27.1.3
     ts-node: 10.5.0
     typescript: 4.5.5
-    unplugin-auto-import: 0.6.0
+    unplugin-auto-import: 0.6.1
     vite: 2.8.4
     vite-imagetools: 4.0.3
     vite-plugin-babel-macros: 1.0.5
@@ -12555,9 +12555,9 @@ typescript@4.5.5:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:0.6.0":
-  version: 0.6.0
-  resolution: "unplugin-auto-import@npm:0.6.0"
+"unplugin-auto-import@npm:0.6.1":
+  version: 0.6.1
+  resolution: "unplugin-auto-import@npm:0.6.1"
   dependencies:
     "@antfu/utils": ^0.5.0
     "@rollup/pluginutils": ^4.1.2
@@ -12570,7 +12570,7 @@ typescript@4.5.5:
   peerDependenciesMeta:
     "@vueuse/core":
       optional: true
-  checksum: 7cd7811f82c7215ddb5385d5e1ac0c4192f105546f22cfab37092de2aaaf6c717422229c123b2db6b992eb2eb6d5489b67b681c957e96ed65eb566fe2809678d
+  checksum: 6941b8e3ebf2dfc6d1ef8a26d7dd537aaf9ff56435b3ef67571a08b3fa4ef955a57bf57e8df7737c6d68b05c3a6c9356ec1793724e90cdf0aa3207bc7338f3e3
   languageName: node
   linkType: hard
 
