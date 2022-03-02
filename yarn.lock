@@ -3020,15 +3020,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-redux@npm:7.1.22":
-  version: 7.1.22
-  resolution: "@types/react-redux@npm:7.1.22"
+"@types/react-redux@npm:7.1.23":
+  version: 7.1.23
+  resolution: "@types/react-redux@npm:7.1.23"
   dependencies:
     "@types/hoist-non-react-statics": ^3.3.0
     "@types/react": "*"
     hoist-non-react-statics: ^3.3.0
     redux: ^4.0.0
-  checksum: eef458c0cda27eabd8d458b7fc40553aab8d2f218145b896b9059b86d88680ae479079aee13683f2a0f35774f20346b732e91182252402bd8777455e004561c9
+  checksum: 7cedb0f20806ce67255f676fab2d4d9534c12705d43636df95224cfa77fdf5a2e792dc76c6e072c02cad1c88030aea822c14f36fe85d459b898ee68fcff6f05c
   languageName: node
   linkType: hard
 
@@ -8932,7 +8932,7 @@ __metadata:
     "@types/node": 16.11.26
     "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
-    "@types/react-redux": 7.1.22
+    "@types/react-redux": 7.1.23
     "@types/react-test-renderer": 17.0.1
     "@types/testing-library__jest-dom": 5.14.2
     "@typescript-eslint/eslint-plugin": 5.13.0
