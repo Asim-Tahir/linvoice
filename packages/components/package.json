@@ -40,6 +40,6 @@
     "@types/color": "3.0.3",
     "@types/react": "17.0.39",
     "@types/react-dom": "17.0.11",
-    "@types/styled-components": "5.1.23"
+    "@types/styled-components": "5.1.24"
   }
 }
