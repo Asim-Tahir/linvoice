@@ -30,7 +30,7 @@
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-redux": "7.2.6",
-    "react-router-dom": "6.2.2"
+    "react-router-dom": "6.3.0"
   },
   "devDependencies": {
     "@linvoice/eslint-config": "workspace:config/eslint-config",
