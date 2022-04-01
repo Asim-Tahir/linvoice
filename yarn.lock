@@ -9218,7 +9218,7 @@ __metadata:
     prettier: 2.6.1
     react: 18.0.0
     react-dom: 18.0.0
-    react-redux: 7.2.7
+    react-redux: 7.2.8
     react-router-dom: 6.3.0
     react-test-renderer: 18.0.0
     rollup-plugin-string: 3.0.0
@@ -10868,9 +10868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:7.2.7":
-  version: 7.2.7
-  resolution: "react-redux@npm:7.2.7"
+"react-redux@npm:7.2.8":
+  version: 7.2.8
+  resolution: "react-redux@npm:7.2.8"
   dependencies:
     "@babel/runtime": ^7.15.4
     "@types/react-redux": ^7.1.20
@@ -10885,7 +10885,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: c68e8b072a5111a9a30a52db74826aceed19e2e91bf86c789675dfb5d886536b932392a7e6a49ffe3fb23d0d1bae6fc3663b80a2ee7e3d4eb1c3fdc5e7e169f7
+  checksum: ecf1933e91013f2d41bfc781515b536bf81eb1f70ff228607841094c8330fe77d522372b359687e51c0b52b9888dba73db9ac0486aace1896ab9eb9daec102d5
   languageName: node
   linkType: hard
 
