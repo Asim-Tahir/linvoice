@@ -65,7 +65,7 @@
     "jest-transform-stub": "2.0.0",
     "postcss": "8.4.12",
     "postcss-import": "14.1.0",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "react-test-renderer": "18.0.0",
     "rollup-plugin-string": "3.0.0",
     "stylelint": "14.6.1",
