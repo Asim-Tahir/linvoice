@@ -9230,7 +9230,7 @@ __metadata:
     ts-jest: 27.1.4
     ts-node: 10.7.0
     typescript: 4.6.3
-    unplugin-auto-import: 0.6.9
+    unplugin-auto-import: 0.7.0
     vite: 2.9.1
     vite-imagetools: 4.0.3
     vite-plugin-babel-macros: 1.0.6
@@ -12875,30 +12875,31 @@ typescript@4.6.3:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:0.6.9":
-  version: 0.6.9
-  resolution: "unplugin-auto-import@npm:0.6.9"
+"unplugin-auto-import@npm:0.7.0":
+  version: 0.7.0
+  resolution: "unplugin-auto-import@npm:0.7.0"
   dependencies:
     "@antfu/utils": ^0.5.0
     "@rollup/pluginutils": ^4.2.0
     local-pkg: ^0.4.1
     magic-string: ^0.26.1
     resolve: ^1.22.0
-    unplugin: ^0.4.0
+    unplugin: ^0.6.1
   peerDependencies:
     "@vueuse/core": "*"
   peerDependenciesMeta:
     "@vueuse/core":
       optional: true
-  checksum: 72d8f4cece5f513d80d76dff1e007dc74a1a1ebc049ed3926a2162c64f0e4166e41999dd2e3c69c78dc603df3089abd5aa1a3b40a3572683b5af6c00b6884741
+  checksum: 7d1a156f946ad24bd574eed137fba94bdb2090c02cf4324fe1612c961740118306f87cb95f89cd50892945d5b4afde0e1c13622ff72cf3705d08b20a4d1b6f10
   languageName: node
   linkType: hard
 
-"unplugin@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "unplugin@npm:0.4.0"
+"unplugin@npm:^0.6.1":
+  version: 0.6.1
+  resolution: "unplugin@npm:0.6.1"
   dependencies:
     chokidar: ^3.5.3
+    webpack-sources: ^3.2.3
     webpack-virtual-modules: ^0.4.3
   peerDependencies:
     esbuild: ">=0.13"
@@ -12914,7 +12915,7 @@ typescript@4.6.3:
       optional: true
     webpack:
       optional: true
-  checksum: f5d26c2cd30ba1cd248e3734579d718b8bcbda8f4c99bfa4408c7839845cf9ec3af35f47eb0a1fda99a632679c3f2a2c96a33f2fc536756129bd25338a0f93d5
+  checksum: ece0552cef85fc042ffd91d26554b4d66bde7270551d21acfc7ec556134bd59a99785e427be395b85fefad1db9dea4e3769f281cf413bde846ec23782e715d88
   languageName: node
   linkType: hard
 
@@ -13162,6 +13163,13 @@ typescript@4.6.3:
   version: 6.1.0
   resolution: "webidl-conversions@npm:6.1.0"
   checksum: 1f526507aa491f972a0c1409d07f8444e1d28778dfa269a9971f2e157182f3d496dc33296e4ed45b157fdb3bf535bb90c90bf10c50dcf1dd6caacb2a34cc84fb
+  languageName: node
+  linkType: hard
+
+"webpack-sources@npm:^3.2.3":
+  version: 3.2.3
+  resolution: "webpack-sources@npm:3.2.3"
+  checksum: 989e401b9fe3536529e2a99dac8c1bdc50e3a0a2c8669cbafad31271eadd994bc9405f88a3039cd2e29db5e6d9d0926ceb7a1a4e7409ece021fe79c37d9c4607
   languageName: node
   linkType: hard
 
