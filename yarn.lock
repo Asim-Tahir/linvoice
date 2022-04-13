@@ -14,10 +14,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@antfu/utils@npm:0.5.0"
-  checksum: a5b39b556fe9e53fbc985235ea429badbacc3cd2932cce64dfe8b843b19778f0dec34db3c0d101d2364670eeacbb2bf1858149803b2eb7315cfe55737a58c9e6
+"@antfu/utils@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "@antfu/utils@npm:0.5.1"
+  checksum: 54a64a1a7d451d07be2ead39dee534281f0cca35db2e72b995f4d81baedfe4c8889f428e46ebefe32c7f4444fc2d5389a5a52223fe8cef01cc98415c8ffc9491
   languageName: node
   linkType: hard
 
@@ -9232,7 +9232,7 @@ __metadata:
     ts-jest: 27.1.4
     ts-node: 10.7.0
     typescript: 4.6.3
-    unplugin-auto-import: 0.7.0
+    unplugin-auto-import: 0.7.1
     vite: 2.9.1
     vite-imagetools: 4.0.3
     vite-plugin-babel-macros: 1.0.6
@@ -12877,11 +12877,11 @@ typescript@4.6.3:
   languageName: node
   linkType: hard
 
-"unplugin-auto-import@npm:0.7.0":
-  version: 0.7.0
-  resolution: "unplugin-auto-import@npm:0.7.0"
+"unplugin-auto-import@npm:0.7.1":
+  version: 0.7.1
+  resolution: "unplugin-auto-import@npm:0.7.1"
   dependencies:
-    "@antfu/utils": ^0.5.0
+    "@antfu/utils": ^0.5.1
     "@rollup/pluginutils": ^4.2.0
     local-pkg: ^0.4.1
     magic-string: ^0.26.1
@@ -12892,7 +12892,7 @@ typescript@4.6.3:
   peerDependenciesMeta:
     "@vueuse/core":
       optional: true
-  checksum: 7d1a156f946ad24bd574eed137fba94bdb2090c02cf4324fe1612c961740118306f87cb95f89cd50892945d5b4afde0e1c13622ff72cf3705d08b20a4d1b6f10
+  checksum: 93262fdf200b551495abcf3190f0cae1a999796195e8dfafe9fe24be6d83629f9b82f19e468502c0a02044c8ed56484558b6c044350e622465edd09a1ac28da1
   languageName: node
   linkType: hard
 
