@@ -2374,7 +2374,7 @@ __metadata:
     "@linvoice/types": "workspace:packages/types"
     "@types/color": 3.0.3
     "@types/react": 18.0.5
-    "@types/react-dom": 18.0.0
+    "@types/react-dom": 18.0.1
     "@types/styled-components": 5.1.25
     "@windmill/react-ui": ^0.6.0
     chart.js: 3.7.1
@@ -3224,7 +3224,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.0, @types/react-dom@npm:^18.0.0":
+"@types/react-dom@npm:18.0.1":
+  version: 18.0.1
+  resolution: "@types/react-dom@npm:18.0.1"
+  dependencies:
+    "@types/react": "*"
+  checksum: 6c183e2e50240b77ed767cd968fe061ef4f2b47f84da5ec9e412a767d68c9a004d1f6ccca4295a5aa2c3ee723377e59006a2031f3767c00d8ac9e240a51bb142
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:^18.0.0":
   version: 18.0.0
   resolution: "@types/react-dom@npm:18.0.0"
   dependencies:
@@ -9188,7 +9197,7 @@ __metadata:
     "@types/jest": 27.4.1
     "@types/node": 16.11.27
     "@types/react": 18.0.5
-    "@types/react-dom": 18.0.0
+    "@types/react-dom": 18.0.1
     "@types/react-redux": 7.1.24
     "@types/react-test-renderer": 18.0.0
     "@types/testing-library__jest-dom": 5.14.3
