@@ -2916,20 +2916,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/jest@npm:1.5.0":
-  version: 1.5.0
-  resolution: "@swc-node/jest@npm:1.5.0"
+"@swc-node/jest@npm:1.5.1":
+  version: 1.5.1
+  resolution: "@swc-node/jest@npm:1.5.1"
   dependencies:
     "@node-rs/xxhash": ^1.2.0
     "@swc-node/core": ^1.9.0
-    "@swc-node/register": ^1.5.0
-  checksum: 544a61b5917f01338ce6482d916c142fc7ee9aa5181e5e2955649d5ab3a1ba284c475f7a3e9a5ef700e8a568655f38a08cd73c8561ceea2ce2d17d588b678a7e
+    "@swc-node/register": ^1.5.1
+  checksum: 32270d7de25598b028f632d407b30b9de3293a62f742f8c7fd5b442a19a8d193aa7c224e09c0a984879c03b8f99a550781d5787e49cec287a1eae0d67acea7e6
   languageName: node
   linkType: hard
 
-"@swc-node/register@npm:^1.5.0":
-  version: 1.5.0
-  resolution: "@swc-node/register@npm:1.5.0"
+"@swc-node/register@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "@swc-node/register@npm:1.5.1"
   dependencies:
     "@swc-node/core": ^1.9.0
     "@swc-node/sourcemap-support": ^0.2.0
@@ -2937,10 +2937,9 @@ __metadata:
     debug: ^4.3.4
     pirates: ^4.0.5
     tslib: ^2.4.0
-    typescript: ^4.6.3
   peerDependencies:
     typescript: ">= 4.3"
-  checksum: 85fb5a8656b42d47895c5225c240c82bdb1ca0dd3d930c014594d6ee50709ca4fa553bb121b01ee5d06365b5fc4e69b7456fe29accd176db36b861f9ce28d547
+  checksum: d4e4442e850bfd2416fcdf9b4a22afdcacde5bbb7c0ff21f5a3336ea3211c046805d7fadf8fbec1ab9f65b64eea07ef91cdc5d91792ba9c9045098bf8ba4c096
   languageName: node
   linkType: hard
 
@@ -9121,7 +9120,7 @@ __metadata:
     "@linvoice/router": "workspace:packages/router"
     "@linvoice/store": "workspace:packages/store"
     "@linvoice/tsconfig": "workspace:config/tsconfig"
-    "@swc-node/jest": 1.5.0
+    "@swc-node/jest": 1.5.1
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 13.1.1
     "@types/jest": 27.4.1
@@ -12659,7 +12658,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@4.6.3, typescript@^4.6.3":
+typescript@4.6.3:
   version: 4.6.3
   resolution: "typescript@npm:4.6.3"
   bin:
@@ -12669,7 +12668,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
   resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=32657b"
   bin:
