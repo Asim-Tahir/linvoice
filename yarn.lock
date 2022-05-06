@@ -2916,14 +2916,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc-node/jest@npm:1.5.1":
-  version: 1.5.1
-  resolution: "@swc-node/jest@npm:1.5.1"
+"@swc-node/jest@npm:1.5.2":
+  version: 1.5.2
+  resolution: "@swc-node/jest@npm:1.5.2"
   dependencies:
     "@node-rs/xxhash": ^1.2.0
     "@swc-node/core": ^1.9.0
     "@swc-node/register": ^1.5.1
-  checksum: 32270d7de25598b028f632d407b30b9de3293a62f742f8c7fd5b442a19a8d193aa7c224e09c0a984879c03b8f99a550781d5787e49cec287a1eae0d67acea7e6
+  checksum: d0b4b62cb0e9754e905c5031dd4927f3cc3faf6c558c0c54592e59cada448007f6072b91ea9b3b080a0377178185860cbed372cffb48c770554d198cbcec59e8
   languageName: node
   linkType: hard
 
@@ -9095,7 +9095,7 @@ __metadata:
     "@linvoice/router": "workspace:packages/router"
     "@linvoice/store": "workspace:packages/store"
     "@linvoice/tsconfig": "workspace:config/tsconfig"
-    "@swc-node/jest": 1.5.1
+    "@swc-node/jest": 1.5.2
     "@testing-library/jest-dom": 5.16.4
     "@testing-library/react": 13.2.0
     "@types/jest": 27.5.0
