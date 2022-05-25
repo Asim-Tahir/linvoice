@@ -2541,7 +2541,7 @@ __metadata:
     "@types/react-dom": 18.0.5
     "@types/styled-components": 5.1.25
     "@windmill/react-ui": ^0.6.0
-    chart.js: 3.7.1
+    chart.js: 3.8.0
     classnames: ^2.3.1
     color: ^4.0.1
     history: ^5.0.1
@@ -4851,10 +4851,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chart.js@npm:3.7.1":
-  version: 3.7.1
-  resolution: "chart.js@npm:3.7.1"
-  checksum: f9d118d3b7dd3c36b6da7a8d71ac9e5d9673b81095cc66c3f61ff91674e20020c6700f8c9c6f93713fa8474eb471ded106114346ccc6afa88b4a7d0eb73dcea4
+"chart.js@npm:3.8.0":
+  version: 3.8.0
+  resolution: "chart.js@npm:3.8.0"
+  checksum: 0360212bf5d534effc8475a1aa705ba7257a315af368b5e8eecf476f0bd57a6bb80ad740e870d552f2d11e134dd1497ccef02950d7e626c21a400ff00ecf59af
   languageName: node
   linkType: hard
 
