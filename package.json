@@ -76,7 +76,7 @@
     "ts-jest": "28.0.3",
     "ts-node": "10.8.0",
     "typescript": "4.7.2",
-    "unplugin-auto-import": "0.8.6",
+    "unplugin-auto-import": "0.8.7",
     "vite": "2.9.9",
     "vite-imagetools": "4.0.4",
     "vite-plugin-babel-macros": "1.0.6",
