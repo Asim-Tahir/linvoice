@@ -9294,7 +9294,7 @@ __metadata:
     rollup-plugin-string: 3.0.0
     stylelint: 14.8.5
     stylelint-config-prettier: 9.0.3
-    stylelint-config-recommended: 7.0.0
+    stylelint-config-recommended: 8.0.0
     stylelint-config-tailwindcss: 0.0.3
     tailwindcss: 3.0.24
     ts-jest: 28.0.4
@@ -12314,12 +12314,12 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylelint-config-recommended@npm:7.0.0":
-  version: 7.0.0
-  resolution: "stylelint-config-recommended@npm:7.0.0"
+"stylelint-config-recommended@npm:8.0.0":
+  version: 8.0.0
+  resolution: "stylelint-config-recommended@npm:8.0.0"
   peerDependencies:
-    stylelint: ^14.4.0
-  checksum: 9a60a59effb7565314d6001779a31228d5713b4d13e05e991e6da5f9d0784aacf55bc0fe217010e257a79136753a22ae61e309fb982367ebd4de3316f37eb821
+    stylelint: ^14.8.0
+  checksum: 0c5ca94625e5308a7afb8315bb350a2b48f46fdd8d8922dd9a8c2e37b3407f2294794d930726ad6bf2007abcde1abd34084808cf83adf150efe3a643e0eb5ac4
   languageName: node
   linkType: hard
 
