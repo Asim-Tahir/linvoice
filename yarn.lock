@@ -9319,7 +9319,7 @@ __metadata:
     stylelint-config-prettier: 9.0.3
     stylelint-config-recommended: 8.0.0
     stylelint-config-tailwindcss: 0.0.3
-    tailwindcss: 3.1.0
+    tailwindcss: 3.1.1
     ts-jest: 28.0.4
     ts-node: 10.8.1
     typescript: 4.7.3
@@ -12502,9 +12502,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.1.0":
-  version: 3.1.0
-  resolution: "tailwindcss@npm:3.1.0"
+"tailwindcss@npm:3.1.1":
+  version: 3.1.1
+  resolution: "tailwindcss@npm:3.1.1"
   dependencies:
     arg: ^5.0.1
     chokidar: ^3.5.3
@@ -12533,7 +12533,7 @@ resolve@^2.0.0-next.3:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: a61bc5dfae16099868a508addce720dc519f6dc449d3fc4d756c0762edfe5d842c224ac90ff2072c638de1f52cd849d7c3aea12a8834a4653b81d3580383f878
+  checksum: f805c024fed8ff4faff3c05f8e42709ce8c1b6d6a51303d924fa06c836b026f3051a53e61f7760d3a93cfa09898df5230e1182599bfe242498ea672b437cc43c
   languageName: node
   linkType: hard
 
