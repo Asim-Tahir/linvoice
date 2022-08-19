@@ -86,7 +86,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "config/*"
+      "config/*",
+      "libraries/*"
     ]
   },
   "packageManager": "yarn@3.2.1"

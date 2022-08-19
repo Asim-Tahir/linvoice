@@ -1,7 +1,7 @@
 import { defineConfig, loadEnv } from "vite";
 import ViteReact from "@vitejs/plugin-react-refresh";
 import ViteReactJSX from "vite-react-jsx";
-import SVGIcons from "vite-plugin-svg-icons";
+import { createSvgIconsPlugin as SVGIcons } from "vite-plugin-svg-icons";
 import MacrosPlugin from "vite-plugin-babel-macros";
 import AutoImport from "unplugin-auto-import/vite";
 // import { imagetools as ImageTools } from "vite-imagetools";
