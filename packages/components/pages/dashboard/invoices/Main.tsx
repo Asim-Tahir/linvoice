@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState, useContext } from "react";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { useParams } from "react-router-dom";
 import { Doughnut } from "react-chartjs-2";
 
@@ -27,6 +28,8 @@ import { Modal, EditInput } from "@linvoice/context";
 import { invoicesStore } from "@linvoice/store";
 import type { Invoice } from "@linvoice/store/types";
 import { invoiceStatusUtil } from "@linvoice/store/types";
+
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function Dashboard(): React.ReactElement {
   const pageSize = 10;

@@ -7,7 +7,7 @@ export const StyledNav = styled.nav`
   ${tw`my-6`}
 
   & > *:not(:last-child)::after {
-    ${tw`content["/"] p-4`}
+    ${tw`[content:"/"] p-4`}
   }
 `;
 
