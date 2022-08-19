@@ -14,23 +14,23 @@
     "./styled": "./styled/index.ts"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.1",
+    "@headlessui/react": "^1.6.6",
     "@linvoice/context": "workspace:packages/context",
     "@linvoice/hooks": "workspace:packages/hooks",
     "@linvoice/icon": "workspace:packages/icon",
     "@linvoice/types": "workspace:packages/types",
     "@windmill/react-ui": "^0.6.0",
-    "chart.js": "3.8.0",
+    "chart.js": "3.9.1",
     "classnames": "^2.3.1",
-    "color": "^4.0.1",
-    "history": "^5.0.1",
-    "ms": "^3.0.0-canary.1",
-    "react": "^18.0.0",
-    "react-chartjs-2": "^4.0.0",
-    "react-dom": "^18.0.0",
-    "react-hook-form": "^7.15.3",
-    "react-router-dom": "^6.0.0-beta.4",
-    "styled-components": "^5.3.1",
+    "color": "^4.2.3",
+    "history": "^5.3.0",
+    "ms": "^2.1.3",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^4.3.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5",
     "twin.macro": "2.8.2"
   },
   "resolutions": {
@@ -38,8 +38,8 @@
   },
   "devDependencies": {
     "@types/color": "3.0.3",
-    "@types/react": "18.0.12",
-    "@types/react-dom": "18.0.5",
-    "@types/styled-components": "5.1.25"
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "5.1.26"
   }
 }
